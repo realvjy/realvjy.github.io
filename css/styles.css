@@ -50,8 +50,10 @@ body,html{
     background-color: transparent!important;
 }
 
-
-/*Section*/
+section p{
+    font-size: 20px;
+}
+/*Section home*/
 .home-about{
     background-color: #f4314d;
     color: #f7f7f7;
@@ -68,7 +70,6 @@ body,html{
 }
 
 .home-about p{
-    font-size: 20px;
     color: #f3f3f3;
     margin-bottom: 15px;
 }
@@ -118,6 +119,67 @@ body,html{
 .home-about .s-i a:hover{
     color: #f4314d;
     background-color: #fff;
+}
+/*Section cv*/
+.cv{
+    margin-top: 12px;
+}
+
+.cv .cv-b{
+    padding: 12px 20px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    color: #404040;
+}
+
+.cv-b .header .title h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.cv-b .header .btn{
+    border-radius: 0;
+    border: 1px solid #f4314d;
+    color: #f4314d;
+    position: relative;
+    top: -40px;
+}
+.cv-b .sum p{
+    margin: 0;
+    color: #555;
+    font-size: 18px;
+}
+.cv-b .header a.btn:hover, .cv-b .header a.btn:focus{
+    border: 1px solid #f4314d;
+    color: #fff;
+    background: #f4314d;
+    position: relative;
+    top: -40px;
+}
+
+.info h2{
+    color: #f4314d;
+}
+
+.info p{
+    margin-bottom: 10px;
+    color: #666;
+}
+.info p.strong{
+    color: #444;
+    font-weight: 400;
+    margin: 0
+}
+.info a{
+    text-decoration: none;
+    border-bottom: 1px dotted #666;
+}
+.info dl{
+    font-size: 18px;
+}
+.info img{
+    margin-bottom: 40px;
 }
 /*Footer*/
 .footer{
