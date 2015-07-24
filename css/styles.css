@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic);
+/*font-family: 'Roboto', sans-serif;*/
+
+body,html{
+    font-family: 'Roboto Slab', serif;
+    background-color: #f7f7f7;
+    height: 100%;
+    font-weight: 300;
+}
+
+
+/*Main container*/
+.container{
+    max-width: 775px!important;
+}
+
+/*Navbar*/
+.nav-v{
+    border-radius: 0!important;
+    font-size: 24px;
+    border: none;
+    background-color: #f4314d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.nav-v a:focus, .nav-v a:hover {
+    color: #fff;
+}
+
+.nav-v a{
+    color: #ffacb8;
+}
+
+#brand-v{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: transparent!important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent!important;
+}
+
+
+/*Section*/
+.home-about{
+    background-color: #f4314d;
+    color: #f7f7f7;
+}
+
+.b-t{
+    border-top: 1px solid #fd5b73;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.home-about p.lead{
+    font-size: 30px;
+}
+
+.home-about p{
+    font-size: 20px;
+    color: #f3f3f3;
+    margin-bottom: 15px;
+}
+
+.home-about .b-i p.lead span{
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.home-about .b-i a{
+    color: #fff;
+    border-bottom: 1px dotted #FFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.home-about .b-i a:hover{
+    background-color: #fff;
+    color: #f4314d;
+}
+
+.home-about .m-i{
+    text-align: center;
+}
+
+.home-about .s-i{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-about .s-i a{
+    display: inline-block;
+    background: #e32a44;
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+    text-decoration: none!important;
+    border-radius: 50%;
+    color: #f3f3f3;
+    padding-top: 3px;
+    transition: opacity 200ms ease-in-out 0s;
+    -moz-transition: opacity 200ms ease-in-out 0s;
+    -webkit-transition: opacity 200ms ease-in-out 0s;
+    margin-right: 8px;
+}
+
+.home-about .s-i a:hover{
+    color: #f4314d;
+    background-color: #fff;
+}
+/*Footer*/
+.footer{
+    text-align: center;
+    padding: 30px;
+}
