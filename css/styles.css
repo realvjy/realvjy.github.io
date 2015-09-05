@@ -32,6 +32,9 @@ body,html{
 
 .nav-v a{
     color: #ffacb8;
+    transition: color 200ms ease-in-out 0s;
+    -moz-transition: color 200ms ease-in-out 0s;
+    -webkit-transition: color 200ms ease-in-out 0s;
 }
 
 #brand-v{
@@ -89,6 +92,9 @@ section p{
 .home-about .b-i a:hover{
     background-color: #fff;
     color: #f4314d;
+    transition: background-color 200ms ease-in-out 0s;
+    -moz-transition: background-color 200ms ease-in-out 0s;
+    -webkit-transition: background-color 200ms ease-in-out 0s;
 }
 
 .home-about .m-i{
@@ -102,7 +108,7 @@ section p{
 
 .home-about .s-i a{
     display: inline-block;
-    background: #e32a44;
+    background-color: #e32a44;
     width: 34px;
     height: 34px;
     font-size: 18px;
@@ -110,9 +116,9 @@ section p{
     border-radius: 50%;
     color: #f3f3f3;
     padding-top: 3px;
-    transition: opacity 200ms ease-in-out 0s;
-    -moz-transition: opacity 200ms ease-in-out 0s;
-    -webkit-transition: opacity 200ms ease-in-out 0s;
+    transition: background-color 200ms ease-in-out 0s;
+    -moz-transition: background-color 200ms ease-in-out 0s;
+    -webkit-transition: background-color 200ms ease-in-out 0s;
     margin-right: 8px;
 }
 
@@ -180,6 +186,68 @@ section p{
 }
 .info img{
     margin-bottom: 40px;
+}
+
+/*Contact*/
+.contact{
+  padding: 0 0 20px;
+}
+.contact h1{
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.contact .call-i{
+  text-align: right;
+}
+.contact .call-i span{
+  background: #f3f3f3;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: #f4314d;
+  font-size: 36px;
+  padding-top: 14px;
+  padding-right: 25px;
+  text-decoration: none!important;
+  border-radius: 50%;
+  transition: opacity 200ms ease-in-out 0s;
+  -moz-transition: opacity 200ms ease-in-out 0s;
+  -webkit-transition: opacity 200ms ease-in-out 0s;
+}
+.contact .call-t{
+  padding-top: 12px;
+}
+.contact .email-t{
+  padding-top: 28px;
+}
+.contact .call-t p{
+  margin: 0;
+}
+.contact .social-t{
+  padding-top: 22px;
+}
+.contact .social-t a{
+  display: inline-block;
+  background-color: #e32a44;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  text-decoration: none!important;
+  border-radius: 50%;
+  color: #f3f3f3;
+  padding-top: 3px;
+  text-align: center;
+  transition: background-color 500ms ease-in-out 0s;
+  -moz-transition: background-color 500ms ease-in-out 0s;
+  -webkit-transition: background-color 500ms ease-in-out 0s;
+  margin-right: 8px;
+}
+.contact .social-t a:hover{
+  color: #f4314d;
+  background-color: #fff;
 }
 /*Footer*/
 .footer{
