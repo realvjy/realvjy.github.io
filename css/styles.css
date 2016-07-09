@@ -65,13 +65,13 @@ section p{
 }
 
 .b-t{
-    border-top: 1px solid #fd5b73;
     padding: 20px;
     padding-bottom: 20px;
 }
 
 .home-about p.lead{
-    font-size: 30px;
+  text-align: center;
+    font-size: 34px;
 }
 
 .home-about p{
@@ -82,6 +82,10 @@ section p{
 .home-about .b-i p.lead span{
     color: #fff;
     border-bottom: 1px dotted #fff;
+}
+
+.home-about .b-i{
+    padding-top: 40px;
 }
 
 .home-about .b-i a{
