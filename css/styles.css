@@ -20,7 +20,7 @@ body,html{
     border-radius: 0!important;
     font-size: 24px;
     border: none;
-    background-color: #f4314d;
+    background-color: #1BB1B2;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 0;
@@ -28,10 +28,12 @@ body,html{
 
 .nav-v a:focus, .nav-v a:hover {
     color: #fff;
+    opacity: 1;
 }
 
 .nav-v a{
-    color: #ffacb8;
+    color: #fdfdfd;
+    opacity: 0.5;
     transition: color 200ms ease-in-out 0s;
     -moz-transition: color 200ms ease-in-out 0s;
     -webkit-transition: color 200ms ease-in-out 0s;
@@ -58,7 +60,7 @@ section p{
 }
 /*Section home*/
 .home-about{
-    background-color: #f4314d;
+    background-color: #1BB1B2;
     color: #f7f7f7;
 }
 
