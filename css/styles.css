@@ -288,3 +288,39 @@ li a.btn-dwn:hover{
     text-align: center;
     padding: 30px;
 }
+
+
+#mc_embed_signup{
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#mc-embedded-subscribe{
+  background-color: #fff!important;
+  color: #1BB1B2!important;
+  margin-top: 8px;
+}
+#mce-EMAIL{
+  text-align: center;
+  display: inline-block;
+}
+
+
+.indicates-required{
+  display: none;
+}
+
+.address{
+  text-align: center;
+  font-size: 18px;
+}
+
+.address .social{
+  font-size: 30px;
+}
+
+.social a{
+  color: #fff;
+}
