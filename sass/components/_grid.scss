@@ -1,0 +1,98 @@
+/* Makes border-box properties */
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  container: 71.25rem,
+  global-box-sizing: border-box,
+);
+
+
+// Breakpoints
+$mobile-landscape: 30rem; // 480px
+$tablet: 40rem; // 640px
+$tablet-wide: 48rem; // 768px
+$desktop: 64rem; // 1024px
+$widescreen: 71.25rem; // 1140px
+
+* {
+  box-sizing: border-box;
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+body {
+  padding: 0 .625rem;
+}
+
+.container {
+  @include container();
+}
+
+header {
+  background-color: $color-primary;
+  height: 4rem;
+  margin-bottom: gutter();
+}
+
+section {
+  @extend %clearfix;
+  margin-bottom: gutter();
+}
+
+.gallery {
+  margin: 0;
+  @extend %clearfix;
+}
+
+.gallery__item {
+  @include gallery(6);
+  background-color: $color-tertiary;
+  height: 8rem;
+  margin-bottom: gutter();
+
+  &:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $tablet) {
+    @include gallery(4);
+
+    &:nth-last-child(-n+3) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    @include gallery(3);
+
+    &:nth-last-child(-n+4) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+footer {
+  @include span(full);
+  background-color: $color-grey;
+  height: 4rem;
+}
+
+.outline {
+  display: block;
+  margin: gutter() 0;
+  font-family: Lato, sans-serif;
+  color: $color-primary;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "vijayverma.co",
+  "homepage": "https://github.com/realvjy/realvjy.github.io",
+  "authors": [
+    "Vijay K. Verma <realvjy@gmail.com>"
+  ],
+  "description": "Personal Portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "sass-mq": "^3.3.2",
+    "normalize-css": "^5.0.0",
+    "normalize-scss": "normalize.scss#^6.0.0"
+  }
+}

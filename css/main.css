@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,700");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+*/
+/* line 5, ../sass/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 26, ../sass/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 30, ../sass/base/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 33, ../sass/base/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 36, ../sass/base/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 39, ../sass/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 44, ../sass/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Makes border-box properties */
+/* line 25, ../sass/components/_grid.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 30, ../sass/components/_grid.scss */
+section:after, .gallery:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 37, ../sass/components/_grid.scss */
+body {
+  padding: 0 .625rem; }
+
+/* line 41, ../sass/components/_grid.scss */
+.container {
+  max-width: 71.25rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 45, ../sass/components/_grid.scss */
+header {
+  background-color: #38a1d6;
+  height: 4rem;
+  margin-bottom: 1.69492%; }
+
+/* line 51, ../sass/components/_grid.scss */
+section {
+  margin-bottom: 1.69492%; }
+
+/* line 56, ../sass/components/_grid.scss */
+.gallery {
+  margin: 0; }
+
+/* line 61, ../sass/components/_grid.scss */
+.gallery__item {
+  width: 49.15254%;
+  float: left;
+  background-color: #fcee21;
+  height: 8rem;
+  margin-bottom: 1.69492%; }
+  /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+  .gallery__item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+  .gallery__item:nth-child(2n + 2) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none; }
+  /* line 67, ../sass/components/_grid.scss */
+  .gallery__item:nth-last-child(-n+2) {
+    margin-bottom: 0; }
+  @media (min-width: 40rem) {
+    /* line 61, ../sass/components/_grid.scss */
+    .gallery__item {
+      width: 32.20339%;
+      float: left; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(3n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(3n + 2) {
+        margin-left: 33.89831%;
+        margin-right: -100%;
+        clear: none; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(3n + 3) {
+        margin-left: 67.79661%;
+        margin-right: -100%;
+        clear: none; }
+      /* line 74, ../sass/components/_grid.scss */
+      .gallery__item:nth-last-child(-n+3) {
+        margin-bottom: 0; } }
+  @media (min-width: 64rem) {
+    /* line 61, ../sass/components/_grid.scss */
+    .gallery__item {
+      width: 23.72881%;
+      float: left; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(4n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(4n + 2) {
+        margin-left: 25.42373%;
+        margin-right: -100%;
+        clear: none; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(4n + 3) {
+        margin-left: 50.84746%;
+        margin-right: -100%;
+        clear: none; }
+      /* line 66, ../bower_components/susy/sass/susy/language/susy/_gallery.scss */
+      .gallery__item:nth-child(4n + 4) {
+        margin-left: 76.27119%;
+        margin-right: -100%;
+        clear: none; }
+      /* line 82, ../sass/components/_grid.scss */
+      .gallery__item:nth-last-child(-n+4) {
+        margin-bottom: 0; } }
+
+/* line 88, ../sass/components/_grid.scss */
+footer {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #a1acb5;
+  height: 4rem; }
+
+/* line 94, ../sass/components/_grid.scss */
+.outline {
+  display: block;
+  margin: 1.69492% 0;
+  font-family: Lato, sans-serif;
+  color: #38a1d6;
+  text-decoration: none;
+  text-align: center; }
+  /* line 102, ../sass/components/_grid.scss */
+  .outline:hover {
+    text-decoration: underline; }
