@@ -182,28 +182,112 @@ footer {
 .header {
   height: 90vh;
   background-color: #4F3083;
-  color: #ffffff;
-  background: url(../images/boy-illustraion.svg) #4F3083;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  color: #ffffff; }
 
-/* line 94, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .nav {
   padding-top: 60px; }
-  /* line 96, ../sass/components/_grid.scss */
+  /* line 92, ../sass/components/_grid.scss */
   .nav .nav__logo {
     float: left; }
-    /* line 98, ../sass/components/_grid.scss */
+    /* line 94, ../sass/components/_grid.scss */
     .nav .nav__logo img {
       display: block;
       height: 48px; }
-  /* line 103, ../sass/components/_grid.scss */
+  /* line 99, ../sass/components/_grid.scss */
   .nav .nav__menu {
     float: right; }
-    /* line 106, ../sass/components/_grid.scss */
+    /* line 102, ../sass/components/_grid.scss */
     .nav .nav__menu ul > li {
       display: inline-block; }
-      /* line 108, ../sass/components/_grid.scss */
+      /* line 104, ../sass/components/_grid.scss */
       .nav .nav__menu ul > li a {
         color: #ffffff; }
+
+/* line 112, ../sass/components/_grid.scss */
+.howdy {
+  position: relative; }
+  /* line 114, ../sass/components/_grid.scss */
+  .howdy .illustration {
+    width: 100%;
+    display: block; }
+    /* line 117, ../sass/components/_grid.scss */
+    .howdy .illustration .illustration__boy {
+      overflow: hidden; }
+      /* line 119, ../sass/components/_grid.scss */
+      .howdy .illustration .illustration__boy img {
+        margin-left: -40%;
+        height: 60%; }
+  /* line 125, ../sass/components/_grid.scss */
+  .howdy .htxt-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%; }
+    /* line 130, ../sass/components/_grid.scss */
+    .howdy .htxt-box .htxt-box__wrap {
+      margin-left: 50.84746%; }
+      /* line 132, ../sass/components/_grid.scss */
+      .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content {
+        padding-left: 20px;
+        margin-top: 80px; }
+        /* line 135, ../sass/components/_grid.scss */
+        .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content h2 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 54px;
+          color: #FCB02F;
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 5px; }
+        /* line 143, ../sass/components/_grid.scss */
+        .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content h3 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 32px;
+          font-weight: 700; }
+        /* line 148, ../sass/components/_grid.scss */
+        .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content p {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          max-width: 320px;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 28px;
+          opacity: 0.8; }
+        /* line 159, ../sass/components/_grid.scss */
+        .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hbtn-link .btn {
+          border-radius: 6px;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 300;
+          text-decoration: none;
+          border: 1px solid transparent;
+          font-size: 18px;
+          line-height: 18px;
+          padding: 12px 22px;
+          display: inline-block; }
+          /* line 169, ../sass/components/_grid.scss */
+          .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hbtn-link .btn.btn__know {
+            background-color: transparent;
+            color: #ffffff;
+            border-color: #ffffff;
+            margin-right: 10px; }
+          /* line 175, ../sass/components/_grid.scss */
+          .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hbtn-link .btn.btn__hire {
+            background-color: #e60a6f;
+            color: #ffffff;
+            border-color: #e60a6f; }
+        /* line 181, ../sass/components/_grid.scss */
+        .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hsm-link {
+          margin-top: 25px; }
+          /* line 183, ../sass/components/_grid.scss */
+          .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hsm-link a {
+            font-size: 22px;
+            text-decoration: none;
+            display: inline-block;
+            color: #ffffff;
+            margin-right: 12px;
+            opacity: 0.3;
+            transition: all ease 0.3s; }
+            /* line 191, ../sass/components/_grid.scss */
+            .howdy .htxt-box .htxt-box__wrap .htxt-box__wrap_content .hsm-link a:hover {
+              opacity: 1; }

@@ -85,10 +85,6 @@ footer {
 .header{
   height: 90vh;
   @include background-color($color_primary_blue);
-  background: url(../images/boy-illustraion.svg) $color_primary_blue;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .nav{
@@ -107,6 +103,95 @@ footer {
         display: inline-block;
         a{
           color: $color_white;
+        }
+      }
+    }
+  }
+}
+
+.howdy{
+  position: relative;
+  .illustration{
+    width: 100%;
+    display: block;
+    .illustration__boy{
+      overflow: hidden;
+      img{
+        margin-left: -40%;
+        height: 60%;
+      }
+    }
+  }
+  .htxt-box{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    .htxt-box__wrap{
+      @include pre(6);
+      .htxt-box__wrap_content{
+        padding-left: 20px;
+        margin-top: 80px;
+        h2{
+          font-family: $font_montserrat;
+          font-size: 54px;
+          color: $color_primary_yellow;
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 5px;
+        }
+        h3{
+          font-family: $font_montserrat;
+          font-size: 32px;
+          font-weight: 700;
+        }
+        p{
+          margin-top: 15px;
+          margin-bottom: 15px;
+          max-width: 320px;
+          font-family: $font_source_sans;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 28px;
+          opacity: 0.8;
+        }
+        .hbtn-link{
+          .btn{
+            border-radius: 6px;
+            font-family: $font_source_sans;
+            font-weight: 300;
+            text-decoration: none;
+            border: 1px solid transparent;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 12px 22px;
+            display: inline-block;
+            &.btn__know{
+              background-color: transparent;
+              color: $color_white;
+              border-color: $color_white;
+              margin-right: 10px;
+            }
+            &.btn__hire{
+              @include background-color($color_primary_pink);
+              border-color: $color_primary_pink;
+            }
+          }
+        }
+        .hsm-link{
+          margin-top: 25px;
+          a{
+            font-size: 22px;
+            text-decoration: none;
+            display: inline-block;
+            color: $color_white;
+            margin-right: 12px;
+            opacity: 0.3;
+            transition: all ease 0.3s;
+            &:hover{
+              opacity: 1;
+            }
+          }
         }
       }
     }
