@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,700');
 
 // Base
+@import "base/variables";
 @import "base/reset";
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/sass-mq/mq";
-@import "base/variables";
 @import "base/mixins";
 
 // Components

@@ -19,41 +19,26 @@ $widescreen: 71.25rem; // 1140px
   box-sizing: border-box;
 }
 
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
 
-body {
-  padding: 0 .625rem;
-}
+body{
 
+}
 .container {
   @include container();
 }
 
-header {
-  background-color: $color-primary;
-  height: 4rem;
-  margin-bottom: gutter();
+header, section {
+  @include clearfix;
 }
 
-section {
-  @extend %clearfix;
-  margin-bottom: gutter();
-}
 
 .gallery {
   margin: 0;
-  @extend %clearfix;
+  @include clearfix;
 }
 
 .gallery__item {
   @include gallery(6);
-  background-color: $color-tertiary;
   height: 8rem;
   margin-bottom: gutter();
 
@@ -80,7 +65,6 @@ section {
 
 footer {
   @include span(full);
-  background-color: $color-grey;
   height: 4rem;
 }
 
@@ -88,11 +72,43 @@ footer {
   display: block;
   margin: gutter() 0;
   font-family: Lato, sans-serif;
-  color: $color-primary;
   text-decoration: none;
   text-align: center;
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+
+// Header
+.header{
+  height: 90vh;
+  @include background-color($color_primary_blue);
+  background: url(../images/boy-illustraion.svg) $color_primary_blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav{
+  padding-top: 60px;
+  .nav__logo{
+    float: left;
+    img{
+      display: block;
+      height: 48px;
+    }
+  }
+  .nav__menu{
+    float: right;
+    ul{
+      >li{
+        display: inline-block;
+        a{
+          color: $color_white;
+        }
+      }
+    }
   }
 }
