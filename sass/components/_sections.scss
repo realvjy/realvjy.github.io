@@ -1,0 +1,24 @@
+section{
+  position: relative;
+}
+.footer{
+  display: block;
+  width: 100%;
+}
+
+.work{
+  .box__work{
+    height: 200px;
+    box-shadow: 0 10px 25px 0 rgba(49,49,93,0.1);
+    background-color: $color_white;
+    border-radius: 5px;
+  }
+}
+
+.false-back{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 60px;
+  background-color: $color_primary_yellow;
+}

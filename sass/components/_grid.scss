@@ -3,7 +3,7 @@
 $susy: (
   columns: 12,
   gutters: 1/4,
-  container: 71.25rem,
+  container: 62.5rem,
   global-box-sizing: border-box,
 );
 
@@ -29,6 +29,14 @@ body{
 
 header, section {
   @include clearfix;
+}
+
+.box{
+  @include clearfix;
+  z-index: 999;
+  .box-4{
+    @include gallery(4 of 12);
+  }
 }
 
 
@@ -83,7 +91,6 @@ footer {
 
 // Header
 .header{
-  height: 90vh;
   @include background-color($color_primary_blue);
 }
 
@@ -101,8 +108,25 @@ footer {
     ul{
       >li{
         display: inline-block;
+        padding: 14px 12px;
         a{
-          color: $color_white;
+          font-family: $font_open_sans;
+          font-weight: 300;
+          display: block;
+          line-height: 20px;
+          text-transform: uppercase;
+          font-size: 15px;
+          letter-spacing: 1px;
+          text-decoration: none;
+          color: #B9ADCD;
+          border-bottom: 2px solid transparent;
+          &:hover{
+            border-bottom: 2px solid $color_primary_yellow;
+            color: $color_white;
+          }
+        }
+        &:last-child{
+          padding-right: 0;
         }
       }
     }
@@ -119,6 +143,7 @@ footer {
       img{
         margin-left: -40%;
         height: 60%;
+        display: block;
       }
     }
   }
@@ -131,10 +156,10 @@ footer {
       @include pre(6);
       .htxt-box__wrap_content{
         padding-left: 20px;
-        margin-top: 80px;
+        margin-top: 60px;
         h2{
           font-family: $font_montserrat;
-          font-size: 54px;
+          font-size: 60px;
           color: $color_primary_yellow;
           font-weight: 700;
           letter-spacing: -1px;
@@ -142,39 +167,58 @@ footer {
         }
         h3{
           font-family: $font_montserrat;
-          font-size: 32px;
+          font-size: 36px;
           font-weight: 700;
         }
         p{
-          margin-top: 15px;
-          margin-bottom: 15px;
+          margin-top: 12px;
+          margin-bottom: 25px;
           max-width: 320px;
-          font-family: $font_source_sans;
-          font-weight: 300;
+          font-family: $font_open_sans;
           font-size: 20px;
-          line-height: 28px;
-          opacity: 0.8;
+          font-weight: 400;
+          line-height: 30px;
+          color: #B9ADCD;
+          span{
+            font-weight: 500;
+            color: $color_primary_yellow;
+            border-bottom: 1px dotted $color_primary_yellow;
+          }
+
         }
         .hbtn-link{
+          margin-top: 10px;
           .btn{
-            border-radius: 6px;
-            font-family: $font_source_sans;
-            font-weight: 300;
+            border-radius: 4px;
+            font-family: $font_open_sans;
             text-decoration: none;
-            border: 1px solid transparent;
-            font-size: 18px;
-            line-height: 18px;
-            padding: 12px 22px;
+            font-size: 15px;
+            line-height: 15px;
+            font-weight: 400;
+            padding: 16px 32px;
             display: inline-block;
+            box-shadow: 0 2px 3px rgba(0,0,0,.1);
+            transition: all ease 0.2s;
             &.btn__know{
-              background-color: transparent;
-              color: $color_white;
-              border-color: $color_white;
-              margin-right: 10px;
+              background-color: $color_white;
+              color: $color_primary_blue;
+              margin-right: 16px;
+              &:hover{
+                background-color: darken($color_white,10%);
+              }
             }
             &.btn__hire{
               @include background-color($color_primary_pink);
-              border-color: $color_primary_pink;
+              &:hover{
+                background-color: darken($color_primary_pink, 5%);
+              }
+            }
+            &:hover{
+              webkit-transform: translate3d(0,-1px,0);
+              -moz-transform: translate3d(0,-1px,0);
+              -ms-transform: translate3d(0,-1px,0);
+              -o-transform: translate3d(0,-1px,0);
+              transform: translate3d(0,-1px,0);
             }
           }
         }
