@@ -391,3 +391,7 @@ section {
   width: 100%;
   height: 60px;
   background-color: #FCB02F; }
+
+/* line 26, ../sass/components/_sections.scss */
+.body-t-c {
+  background-color: #FCB02F; }
