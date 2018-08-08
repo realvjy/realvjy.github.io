@@ -1,0 +1,45 @@
+{
+  "name": "realvjy",
+  "description": "Personal Portfolio upgrade to 3.0. Full stack designer design products exclusive for startups",
+  "main": "index.html",
+  "authors": [
+    "vijay verma <hello@vijayverma.co>"
+  ],
+  "license": "Apache",
+  "keywords": [
+    "realvjy",
+    "vijay",
+    "designer",
+    "ui",
+    "ux",
+    "illustrator",
+    "ui-ux",
+    "product-designer",
+    "zomato",
+    "india"
+  ],
+  "homepage": "https://github.com/realvjy/realvjy.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid-sass": "^8.0.5",
+    "neat": "^3.0.0",
+    "bourbon": "^5.1.0",
+    "susy": "^3.0.5",
+    "sass-mq": "^5.0.0"
+  },
+  "exportsOverride": {
+    "bourbon": {
+      "": "app/assets/stylesheets/"
+    },
+    "neat": {
+      "": "app/assets/stylesheets/"
+    }
+  }
+}
