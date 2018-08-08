@@ -78,6 +78,15 @@ strong {
   box-sizing: border-box;
 }
 
+/* line 27, ../sass/components/_grid.scss */
+.container {
+  background-image: var(--debug-image);
+  background-size: var(--debug-image-size);
+  margin: var(--static-gutters) auto;
+  background: red;
+  overflow: hidden;
+}
+
 /* line 2, ../sass/base/_mixins.scss */
 header:after, section:after {
   content: "";
@@ -85,7 +94,7 @@ header:after, section:after {
   clear: both;
 }
 
-/* line 33, ../sass/components/_grid.scss */
+/* line 40, ../sass/components/_grid.scss */
 .box {
   z-index: 999;
 }

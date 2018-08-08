@@ -22,9 +22,16 @@ $widescreen: 71.25rem; // 1140px
 body{
 
 }
-.container {
 
+
+.container {
+    background-image: var(--debug-image);
+    background-size: var(--debug-image-size);
+    margin: var(--static-gutters) auto;
+    background: red;
+    overflow: hidden;
 }
+
 
 header, section {
   @include clearfix;
