@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,500,600");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+*/
+/* line 5, ../sass/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Poppins", sans-serif;
+  vertical-align: baseline;
+  transition: all ease 0.2s;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../sass/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 32, ../sass/base/_reset.scss */
+body {
+  line-height: 1;
+  background-color: #ffffff;
+}
+
+/* line 36, ../sass/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../sass/base/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 42, ../sass/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../sass/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 52, ../sass/base/_reset.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 56, ../sass/base/_reset.scss */
+.shide {
+  display: none;
+}
+
+/* Makes border-box properties */
+/* line 18, ../sass/components/_grid.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 27, ../sass/components/_grid.scss */
+.container {
+  background-image: var(--debug-image);
+  background-size: var(--debug-image-size);
+  margin: var(--static-gutters) auto;
+  background: red;
+  overflow: hidden;
+}
+
+/* line 2, ../sass/base/_mixins.scss */
+header:after, section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 40, ../sass/components/_grid.scss */
+.box {
+  z-index: 999;
+}
+/* line 2, ../sass/base/_mixins.scss */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
