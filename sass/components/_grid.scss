@@ -49,6 +49,7 @@ header, section {
   max-width: $max_container_width;
   margin: 0 auto;
   overflow: hidden;
+  padding: 0 48px;
 }
 
 %container {
@@ -73,6 +74,17 @@ header, section {
   .nav__menu{
     width: span(5);
     text-align: right;
+    .toggle-btn{
+      display: none;
+      transition: ease all .2s;
+      span{
+        display: block;
+        width: 21px;
+        height: 21px;
+        padding: 9px;
+        background-color: $primary_blue;
+      }
+    }
     ul{
       >li{
         display: inline-block;
@@ -106,13 +118,17 @@ header, section {
   // Media query
   @media (max-width: $desktop) {
     .nav__logo{
-      width: span(10);
-      text-align: center;
+      width: span(4);
     }
 
     .nav__menu{
-      text-align: center;
-      width: span(10);
+      width: span(6);
+      ul{
+        display: none;
+      }
+      .toggle-btn{
+        display: inline-block;
+      }
     }
   }
 }
@@ -189,6 +205,21 @@ header, section {
     .illustration{
       display: inline-block;
       max-width: 100%;
+    }
+  }
+
+  // Media query
+  @media (max-width: $desktop) {
+    flex-direction: column;
+    .detail__text{
+      order: 2;
+      text-align: center;
+      width: span(10);
+      padding-top: 24px;
+    }
+    .detail__image{
+      order: 1;
+      width: span(10);
     }
   }
 }
