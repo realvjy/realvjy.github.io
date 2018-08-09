@@ -72,19 +72,40 @@ strong {
   display: none;
 }
 
-/* Makes border-box properties */
-/* line 18, ../sass/components/_grid.scss */
-* {
-  box-sizing: border-box;
+/* line 1, ../sass/components/_typography.scss */
+h1 {
+  font-size: 52px;
 }
 
-/* line 27, ../sass/components/_grid.scss */
-.container {
-  background-image: var(--debug-image);
-  background-size: var(--debug-image-size);
-  margin: var(--static-gutters) auto;
-  background: red;
-  overflow: hidden;
+/* line 5, ../sass/components/_typography.scss */
+h2 {
+  font-size: 36px;
+}
+
+/* line 9, ../sass/components/_typography.scss */
+h3 {
+  font-size: 32px;
+}
+
+/* line 13, ../sass/components/_typography.scss */
+h4 {
+  font-size: 26px;
+}
+
+/* Makes border-box properties */
+/* Global Settings */
+/* --------------- */
+/* line 5, ../sass/components/_grid.scss */
+:root {
+  --gutter: 0.5rem;
+  --columns: 2;
+}
+
+/* line 12, ../sass/components/_grid.scss */
+* {
+  --span: initial;
+  --width: calc(var(--span) / var(--columns) * 100%);
+  box-sizing: border-box;
 }
 
 /* line 2, ../sass/base/_mixins.scss */
@@ -94,13 +115,228 @@ header:after, section:after {
   clear: both;
 }
 
-/* line 40, ../sass/components/_grid.scss */
-.box {
-  z-index: 999;
+/* line 48, ../sass/components/_grid.scss */
+.main-wrap {
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
-/* line 2, ../sass/base/_mixins.scss */
-.box:after {
-  content: "";
-  display: table;
-  clear: both;
+
+/* line 54, ../sass/components/_grid.scss */
+.nav, .detail, .social-links, footer .credit {
+  overflow: hidden;
+}
+
+/* line 60, ../sass/components/_grid.scss */
+.nav {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 66, ../sass/components/_grid.scss */
+.nav .nav__logo {
+  width: 48.97959%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.nav .nav__logo img {
+  display: inline-block;
+  height: 36px;
+}
+/* line 73, ../sass/components/_grid.scss */
+.nav .nav__menu {
+  width: 48.97959%;
+  text-align: right;
+}
+/* line 77, ../sass/components/_grid.scss */
+.nav .nav__menu ul > li {
+  display: inline-block;
+}
+/* line 79, ../sass/components/_grid.scss */
+.nav .nav__menu ul > li a {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: .5px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #9DA6BA;
+  padding: 0 22px;
+  transition: all ease 0.2s;
+  -webkit-transition: all ease 0.2s;
+}
+/* line 90, ../sass/components/_grid.scss */
+.nav .nav__menu ul > li a:hover {
+  color: #373C46;
+}
+/* line 95, ../sass/components/_grid.scss */
+.nav .nav__menu ul > li.active a {
+  color: #373C46;
+}
+/* line 99, ../sass/components/_grid.scss */
+.nav .nav__menu ul > li:last-child {
+  padding-right: 0;
+}
+@media (max-width: 64rem) {
+  /* line 108, ../sass/components/_grid.scss */
+  .nav .nav__logo {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 113, ../sass/components/_grid.scss */
+  .nav .nav__menu {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* line 122, ../sass/components/_grid.scss */
+.detail {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 128, ../sass/components/_grid.scss */
+.detail .detail__text {
+  padding-top: 120px;
+  width: 59.18367%;
+  color: #373C46;
+}
+/* line 132, ../sass/components/_grid.scss */
+.detail .detail__text .thin {
+  font-weight: 300;
+  margin-bottom: 26px;
+}
+/* line 136, ../sass/components/_grid.scss */
+.detail .detail__text .bold {
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+/* line 140, ../sass/components/_grid.scss */
+.detail .detail__text .sub-text {
+  font-size: 24px;
+  color: #9DA6BA;
+  font-weight: 300;
+}
+/* line 144, ../sass/components/_grid.scss */
+.detail .detail__text .sub-text .company-link {
+  font-weight: 600;
+  color: #9DA6BA;
+  text-decoration: none;
+  transition: all ease .2s;
+  -webkit-transition: all ease .2s;
+}
+/* line 150, ../sass/components/_grid.scss */
+.detail .detail__text .sub-text .company-link:hover {
+  color: #59657e;
+}
+/* line 156, ../sass/components/_grid.scss */
+.detail .detail__text .buttons {
+  margin-top: 36px;
+  padding-bottom: 50px;
+}
+/* line 159, ../sass/components/_grid.scss */
+.detail .detail__text .buttons .btn {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  padding: 18px 36px;
+  display: inline-block;
+  transition: all ease 0.2s;
+  border-radius: 26px;
+}
+/* line 168, ../sass/components/_grid.scss */
+.detail .detail__text .buttons .btn.btn__hello {
+  color: #ffffff;
+  background-color: #6C63FF;
+  box-shadow: 0 20px 36px -4px rgba(157, 166, 186, 0.4);
+}
+/* line 172, ../sass/components/_grid.scss */
+.detail .detail__text .buttons .btn.btn__hello:hover {
+  background-color: #675eff;
+  box-shadow: 0 10px 26px -5px rgba(157, 166, 186, 0.4);
+}
+/* line 177, ../sass/components/_grid.scss */
+.detail .detail__text .buttons .btn.btn__know {
+  color: #373C46;
+}
+/* line 179, ../sass/components/_grid.scss */
+.detail .detail__text .buttons .btn.btn__know:hover {
+  color: #6C63FF;
+}
+/* line 186, ../sass/components/_grid.scss */
+.detail .detail__image {
+  width: 38.77551%;
+  padding-top: 40px;
+}
+/* line 189, ../sass/components/_grid.scss */
+.detail .detail__image .illustration {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* line 199, ../sass/components/_grid.scss */
+.social-links {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+/* line 206, ../sass/components/_grid.scss */
+.social-links .social {
+  text-align: center;
+  width: 18.36735%;
+}
+/* line 209, ../sass/components/_grid.scss */
+.social-links .social a {
+  display: inline-block;
+  text-decoration: none;
+  color: #373C46;
+}
+/* line 213, ../sass/components/_grid.scss */
+.social-links .social a img {
+  display: inline-block;
+  height: 36px;
+  margin-bottom: 22px;
+}
+/* line 218, ../sass/components/_grid.scss */
+.social-links .social a p {
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+
+/* line 248, ../sass/components/_grid.scss */
+footer .credit {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #9DA6BA;
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+/* line 259, ../sass/components/_grid.scss */
+footer .credit .quote {
+  width: 48.97959%;
+}
+/* line 262, ../sass/components/_grid.scss */
+footer .credit .copy {
+  text-align: right;
+  width: 48.97959%;
+}
+
+/* line 3, ../sass/components/_sections.scss */
+.hero-section {
+  margin-top: 72px;
+}
+@media (max-width: 64rem) {
+  /* line 3, ../sass/components/_sections.scss */
+  .hero-section {
+    margin-top: 40px;
+  }
 }
