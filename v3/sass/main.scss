@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,500,600');
 
 // Base
-@import "base/typography";
 @import "base/variables";
 @import "base/reset";
 @import "../bower_components/susy/sass/susy";
@@ -10,7 +10,8 @@
 
 // Components
 
+@import "components/typography";
 @import "components/grid";
 @import "components/buttons";
-@import "components/nav";
+@import "components/navigation";
 @import "components/sections";

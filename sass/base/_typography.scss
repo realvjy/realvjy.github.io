@@ -1,0 +1,19 @@
+@import url("https://use.typekit.net/ygg0aqd.css");
+
+// fonts
+
+$font-family-titling-fb-regular: 'titling-gothic-fb', sans-serif;
+$font-family-titling-fb-wide: 'titling-gothic-fb-wide', sans-serif;
+$font-family-titling-fb-cond: 'titling-gothic-fb-condensed', sans-serif;
+
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 500;
+$font-weight-bold: 600;
+$font-height: 1.5;
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-family-titling-fb-wide!important;
+  font-weight: 500;
+}
