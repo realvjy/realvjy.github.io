@@ -3,9 +3,10 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero"
+import WorkList from "../components/work-list"
+import Footer from "../components/footer"
 
-class BlogIndex extends React.Component {
+class Work extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -25,8 +26,8 @@ class BlogIndex extends React.Component {
                   <li>
                     <a href="https://medium.com/@realvjy">story.</a>
                   </li>
-                  <li>
-                    <a href="/work">work.</a>
+                  <li className="active">
+                    <a href="https://dribbble.com/realvjy">work.</a>
                   </li>
                   <li>
                     <a href="#">contact.</a>
@@ -50,14 +51,14 @@ class BlogIndex extends React.Component {
             </nav>
           </div>
         </section>
-        <Hero />
-
+        <WorkList />
+        <Footer />
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default Work
 
 export const pageQuery = graphql`
   query {

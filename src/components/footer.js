@@ -1,0 +1,25 @@
+
+
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Image from "gatsby-image"
+
+
+const Footer = () => {
+    return (
+      <section className="footer">
+        <div className="container">
+          <div className="footer-wrap">
+            <div className="credit">
+              <h4>© vijay verma, 2019 <a href="/version/v1">...</a></h4>
+            </div>
+            <div className="quote">
+              <h4>stay hungry, stay foolish</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+}
+
+export default Footer

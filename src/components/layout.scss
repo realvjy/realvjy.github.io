@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:600,800|Saira+Semi+Condensed|Saira:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:600,800|Saira+Semi+Condensed:300,500,600|Saira:300,400,600&display=swap');
 
 
 // Variables
@@ -22,6 +22,11 @@ $tablet-wide: 48rem; // 768px
 $desktop: 64rem; // 1024px
 $widescreen: 71.25rem; // 1140px
 
+:root {
+    --emo: cubic-bezier(.4, 0, .2, 1);
+    --emo-in-out: cubic-bezier(.4, 0, .2, 1);
+    --emo-out: cubic-bezier(0, .2, .2, 1);
+}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -114,6 +119,11 @@ section{
     justify-content: space-between;
     padding: 40px 18px;
     align-items: center;
+    @media (max-width: $mobile-landscape){
+       justify-content: center;
+       flex-wrap: wrap;
+       padding: 20px 18px;
+    }
     .brand{
       padding: 6px 0;
       img{
@@ -137,7 +147,9 @@ section{
       vertical-align: middle;
       align-items: center;
       @media (max-width: $mobile-landscape){
-          display: none;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 20px;
       }
       ul{
         padding: 0;
@@ -165,6 +177,10 @@ section{
         }
       }
       .menu-social{
+        @media (max-width: $mobile-landscape){
+
+           margin-top: 20px;
+        }
         li{
           a{
             line-height: 0;
@@ -207,7 +223,7 @@ section{
         margin-top: 100px;
         @media (max-width: $mobile-landscape){
             font-size: 60px;
-            margin-top: 40px;
+            margin-top: 20px;
         }
       }
       h3{
@@ -240,7 +256,6 @@ section{
   height: calc(100vh - 200px);
   @media (max-width: $mobile-landscape){
       font-size: 18px;
-      height: calc(100vh - 180px);
   }
 }
 .intro-image{
@@ -278,5 +293,124 @@ section{
   }
   .btn-outline{
 
+  }
+}
+
+
+.work{
+  .work-wrap{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+
+    .work-box{
+      width: 20%;
+      @media (max-width: $mobile-landscape){
+          width: 50%;
+      }
+      .work-title{
+        padding: 24px 18px;
+        .thumb{
+          display: block;
+          position: relative;
+          transition: all .3s var(--emo-in-out)!important;
+          img{
+            width: 100%;
+          }
+          .work-sum{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .txt{
+              padding: 0 12px;
+              text-align: center;
+              line-height: 110px;
+              opacity: 0;
+              transition: all .3s var(--emo-in-out)!important;
+              h3{
+                font-size: 28px;
+                color: $white;
+                font-weight: 500;
+                margin-bottom: 5px;
+                font-family: $saria-semi-cond;
+                letter-spacing: -1px;
+              }
+              h4{
+                font-weight: 300;
+                color: $white;
+                font-size: 22px;
+                margin-top: 5px;
+              }
+              span{
+                color: $white;
+              }
+            }
+          }
+          &:hover{
+            transform: scale3d(1.06,1.06,1.06);
+            z-index: 1000;
+            position: relative;
+            background: none;
+            img{
+              filter: brightness(.4);
+              box-shadow: 0 32px 64px rgba(0,0,0,.3);
+            }
+            .txt{
+              line-height: 130%;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.work-info{
+  padding: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+  @media (max-width: $mobile-landscape){
+      margin-bottom: 20px;
+  }
+  h1{
+    font-family: $saria-extra-cond;
+    font-weight: 800;
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    @media (max-width: $mobile-landscape){
+        font-size: 48px;
+        margin-top: 30px;
+    }
+  }
+  p{
+    font-size: 22px;
+    margin-top: 24px;
+    line-height: 180%;
+    @media (max-width: $mobile-landscape){
+        font-size: 18px;
+    }
+  }
+}
+
+.footer-wrap{
+  padding: 50px 18px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $mobile-landscape){
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      .credit{
+        margin-bottom: 20px;
+      }
   }
 }
