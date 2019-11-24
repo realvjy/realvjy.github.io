@@ -22,7 +22,7 @@ const WorkList = () => {
 
             <div className="story-box">
               <div className="story-title">
-                <a href="#" className="article">
+                <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" className="article">
                   <h1>Zomato’s new Sushi Design System</h1>
                   <p>All new Zomato design system to create a smooth and amazing experience for our users.</p>
                   <div className="meta">
