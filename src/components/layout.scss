@@ -7,7 +7,7 @@ $white: #ffffff;
 $lightbg: #EEE7D6;
 $yellow: #F7C945;
 $grey: #F1EDE9;
-$blue: #0E63F9;
+$blue: #0251EC;
 $red: #CA324F;
 $light-grey: #353639;
 
@@ -296,13 +296,83 @@ section{
   }
 }
 
-
+.story{
+  margin-bottom: 100px;
+}
 .work{
   .work-wrap{
     display: flex;
     flex-flow: wrap;
     align-items: center;
 
+    // Story box starting
+    .story-box{
+      max-width: 700px;
+      margin: 0 auto;
+      .story-title{
+        .article{
+          display: block;
+          padding: 48px;
+          margin-bottom: 10px;
+          border: 1px solid rgba(0,0,0,0.0);
+          transition-timing-function: cubic-bezier(.4,0,.2,1);
+          transition-property: border;
+          transition-duration: .5s;
+          @media (max-width: $mobile-landscape){
+              padding: 36px;
+          }
+          h1{
+            font-size: 36px;
+            font-weight: 600;
+            font-family: $saria-semi-cond;
+            line-height: 130%;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-property: color;
+            transition-duration: .5s;
+            @media (max-width: $mobile-landscape){
+                font-size: 24px;
+            }
+          }
+          p{
+            font-size: 20px;
+            line-height: 140%;
+            margin-top: 16px;
+            margin-bottom: 12px;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-property: transform;
+            transition-duration: .5s;
+            @media (max-width: $mobile-landscape){
+                font-size: 14px;
+            }
+          }
+          .meta{
+            display: flex;
+            flex-direction: row;
+            h4{
+              color: rgba(0,0,0,0.3);
+              font-size: 16px;
+              font-weight: 400;
+              @media (max-width: $mobile-landscape){
+                  font-size: 12px;
+              }
+            }
+          }
+          &:hover{
+            background: $white;
+            border: 1px solid rgba(0,0,0,0.1);
+            h1{
+              color: $blue;
+
+            }
+            p{
+              // transform: translateY(-4px);
+            }
+          }
+        }
+      }
+    }
+    // Story Box ending
+    // Work wox starting
     .work-box{
       width: 20%;
       @media (max-width: $mobile-landscape){
@@ -371,7 +441,7 @@ section{
   }
 }
 
-.work-info{
+.section-info{
   padding: 18px;
   text-align: center;
   margin-bottom: 60px;
@@ -390,7 +460,7 @@ section{
     }
   }
   p{
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 24px;
     line-height: 180%;
     @media (max-width: $mobile-landscape){
@@ -412,5 +482,59 @@ section{
       .credit{
         margin-bottom: 20px;
       }
+  }
+}
+
+.story-sub{
+  max-width: 700px;
+  margin: 30px auto;
+  .form{
+    padding: 48px;
+    border: 1px solid rgba(0,0,0,1);
+    -webkit-box-shadow: 0 24px 48px rgba(0,0,0,.10);
+    -moz-box-shadow: 0 24px 48px rgba(0,0,0,.10);
+    box-shadow: 0 24px 48px rgba(0,0,0,.10);
+    .newsletter{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      .email{
+        padding: 16px 24px;
+        font-family: $saria-semi-cond;
+        font-weight: 400;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        resize: vertical;
+        width: 60%;
+        color: $black;
+      }
+      button{
+        padding: 16px 24px;
+        font-family: $saria-semi-cond;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 40%;
+        background-color: $black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    h1{
+      font-size: 36px;
+      font-weight: 600;
+      font-family: $saria-semi-cond;
+      line-height: 130%;
+      transition-timing-function: cubic-bezier(.4,0,.2,1);
+      transition-property: color;
+      transition-duration: .5s;
+    }
+    p{
+      font-size: 18px;
+      line-height: 140%;
+      margin-top: 10px;
+    }
   }
 }

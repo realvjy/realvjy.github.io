@@ -14,9 +14,9 @@ const WorkList = () => {
     return (
       <section className="work">
         <div className="container">
-          <div className="work-info">
+          <div className="section-info">
             <h1>work.</h1>
-            <p>I guess, I did some cool work. I don't know how cool it is! But, you can check your choice.</p>
+            <p>I guess, I did some cool work. I don't know how cool it is! But, you can check here.</p>
           </div>
           <div className="work-wrap">
 

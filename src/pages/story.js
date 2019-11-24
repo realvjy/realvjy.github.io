@@ -3,10 +3,10 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import WorkList from "../components/work-list"
+import StoryList from "../components/story-list"
 import Footer from "../components/footer"
 
-class Work extends React.Component {
+class Story extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -14,7 +14,7 @@ class Work extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="work - vijay verma" />
+        <SEO title="story - vijay verma" />
         <section className="header_section">
           <div className="container">
             <nav>
@@ -23,10 +23,10 @@ class Work extends React.Component {
               </Link>
               <div className="menu">
                 <ul className="menu-links">
-                  <li>
+                  <li className="active">
                     <a href="/story">story.</a>
                   </li>
-                  <li  className="active">
+                  <li>
                     <a href="/work">work.</a>
                   </li>
                   <li>
@@ -51,14 +51,14 @@ class Work extends React.Component {
             </nav>
           </div>
         </section>
-        <WorkList />
+        <StoryList />
         <Footer />
       </Layout>
     )
   }
 }
 
-export default Work
+export default Story
 
 export const pageQuery = graphql`
   query {

@@ -23,7 +23,7 @@ class BlogIndex extends React.Component {
               <div className="menu">
                 <ul className="menu-links">
                   <li>
-                    <a href="https://medium.com/@realvjy">story.</a>
+                    <a href="/story">story.</a>
                   </li>
                   <li>
                     <a href="/work">work.</a>
