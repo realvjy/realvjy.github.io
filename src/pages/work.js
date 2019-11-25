@@ -14,7 +14,7 @@ class Work extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="work - vijay verma" />
+        <SEO title="vijay verma - best works" />
         <section className="header_section">
           <div className="container">
             <nav>

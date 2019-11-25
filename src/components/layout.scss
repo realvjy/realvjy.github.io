@@ -505,6 +505,7 @@ section{
         width: 70%;
         .inputbox{
           width: 100%;
+          display: flex;
           .email{
             padding: 16px 24px;
             font-family: $saria-semi-cond;
@@ -514,6 +515,7 @@ section{
             resize: vertical;
             color: $black;
             width: 100%;
+            flex-grow: 1;
           }
         }
       }

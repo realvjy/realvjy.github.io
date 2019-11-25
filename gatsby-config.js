@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `vijay verma - designer, maker, dreamer`,
     author: `vijay verma`,
-    description: `Design chef at zomato. I’m leading design and building inclusive design language system at Zomato. Maker of illlustrations, uiprint, uihues and more`,
+    description: `Design chef at zomato. I’m leading design and building inclusive design language system at Zomato. Maker of illlustrations, uiprint, uihues, sushi design system and more`,
     siteUrl: `https://vijayverma.co`,
     social: {
       twitter: `realvjy`,
@@ -65,6 +65,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+      	endpoint: `https://vijayverma.us14.list-manage.com/subscribe post?u=ed1f62133209766c02f08fd47&amp;id=c4285438c3`,
       },
     },
     `gatsby-plugin-offline`,

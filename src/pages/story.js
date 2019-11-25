@@ -14,7 +14,7 @@ class Story extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="story - vijay verma" />
+        <SEO title="vijay verma - stories" />
         <section className="header_section">
           <div className="container">
             <nav>

@@ -8,6 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import EmailSubs from "./emailsubs.js"
 
 
 const WorkList = () => {
@@ -69,7 +70,7 @@ const WorkList = () => {
                     <div className="mc-field-group">
                     	<label for="mce-EMAIL" style={{display:`none`}}>Email Address </label>
                         <div className="inputbox">
-                    	   <input type="email" value="" placeholder="jane@firefly.com" name="EMAIL" className="required email" id="mce-EMAIL" />
+                    	   <input type="email" placeholder="Your email address please" name="EMAIL" className="required email" id="mce-EMAIL" />
                         </div>
                     </div>
                     <div className="sub-action">
@@ -87,6 +88,7 @@ const WorkList = () => {
                   </div>
                 </form>
               </div>
+
 
             </div>
           </div>
