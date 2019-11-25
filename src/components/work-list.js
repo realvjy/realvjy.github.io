@@ -16,7 +16,7 @@ const WorkList = () => {
         <div className="container">
           <div className="section-info">
             <h1>work.</h1>
-            <p>I guess, I did some cool work. I don't know how cool it is! But, you can check here.</p>
+            <p>I put my heart and soul in these projects. Now that you're on this page, feel free to explore.</p>
           </div>
           <div className="work-wrap">
 

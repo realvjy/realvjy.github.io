@@ -239,7 +239,7 @@ section{
       p{
         font-size: 22px;
         margin-top: 24px;
-        max-width: 510px;
+        max-width: 520px;
         line-height: 180%;
         @media (max-width: $mobile-landscape){
             font-size: 18px;
@@ -461,8 +461,11 @@ section{
   }
   p{
     font-size: 28px;
-    margin-top: 24px;
     line-height: 180%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 24px;
+
     @media (max-width: $mobile-landscape){
         font-size: 18px;
     }
@@ -498,28 +501,38 @@ section{
       display: flex;
       flex-direction: row;
       margin-top: 30px;
-      .email{
-        padding: 16px 24px;
-        font-family: $saria-semi-cond;
-        font-weight: 400;
-        font-size: 20px;
-        border: 1px solid #ccc;
-        resize: vertical;
-        width: 60%;
-        color: $black;
+      .mc-field-group{
+        width: 70%;
+        .inputbox{
+          width: 100%;
+          .email{
+            padding: 16px 24px;
+            font-family: $saria-semi-cond;
+            font-weight: 400;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            resize: vertical;
+            color: $black;
+            width: 100%;
+          }
+        }
       }
-      button{
-        padding: 16px 24px;
-        font-family: $saria-semi-cond;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-size: 20px;
-        width: 40%;
-        background-color: $black;
-        color: white;
-        border: none;
-        cursor: pointer;
+      .sub-action{
+        display: block;
+        width: 30%;
+        .sub-button{
+          padding: 16px 24px;
+          font-family: $saria-semi-cond;
+          font-weight: 400;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-size: 20px;
+          width: 100%;
+          background-color: $black;
+          color: white;
+          border: 1px solid $black;
+          cursor: pointer;
+        }
       }
     }
     h1{
@@ -532,8 +545,8 @@ section{
       transition-duration: .5s;
     }
     p{
-      font-size: 18px;
-      line-height: 140%;
+      font-size: 22px;
+      line-height: 150%;
       margin-top: 10px;
     }
   }
