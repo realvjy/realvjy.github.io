@@ -172,6 +172,21 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
+                <a href="https://zusedigital.com/" target="__blank" className="thumb">
+                  <img src="/work/zuse.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>Zuse Digital</h3>
+                      <span>—</span>
+                      <h4>2017</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-box">
+              <div className="work-title">
                 <a href="#" target="__blank" className="thumb">
                   <img src="/work/maker.png"/>
                   <div className="work-sum">

@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
                     <a href="/work">work.</a>
                   </li>
                   <li>
-                    <a href="#">contact.</a>
+                    <a href="/contact">contact.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
