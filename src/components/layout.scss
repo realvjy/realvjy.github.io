@@ -331,7 +331,7 @@ section{
           transition-property: transform;
           transition-duration: .5s;
           @media (max-width: $mobile-landscape){
-              font-size: 14px;
+              font-size: 16px;
           }
         }
       }
@@ -373,7 +373,7 @@ section{
             transition-property: transform;
             transition-duration: .5s;
             @media (max-width: $mobile-landscape){
-                font-size: 14px;
+                font-size: 16px;
             }
           }
           .meta{
@@ -498,7 +498,7 @@ section{
     margin-top: 24px;
 
     @media (max-width: $mobile-landscape){
-        font-size: 18px;
+        font-size: 20px;
     }
   }
 }
@@ -669,6 +669,9 @@ strong{
   }
 }
 
+.contact-box{
+  margin: 0 auto;
+}
 .cover-img{
   width: 100%;
 }

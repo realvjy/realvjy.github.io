@@ -59,7 +59,7 @@ class Contact extends React.Component {
             </div>
             <div className="work-wrap ">
               <div className="contact-box">
-                <img src="cover.png" alt="vijay verma desk" className="cover-img"/>
+                <img src="/cover.png" alt="vijay verma desk" className="cover-img"/>
 
 
                 <div className="perm-box">
@@ -80,7 +80,7 @@ class Contact extends React.Component {
                 <div className="perm-box">
                   <div className="perm">
                     <h1>Social profiles</h1>
-                    <p>You can connect me on these platform with user name realvjy, even on tinder</p>
+                    <p>You can connect me on these platform with user name realvjy, even on my home planet <strong>mars</strong></p>
                     <div className="social-profile">
                       <ul className="contact-social">
                         <li>
@@ -108,7 +108,7 @@ class Contact extends React.Component {
                           <a href="https://facebook.com/@realvjy" target="__blank"><img src="/facebook.svg" alt="facebook" /></a>
                         </li>
                         <li>
-                          <a href="https://facebook.com/realvjy" target="__blank"><img src="/tiktok.svg" alt="tiktok" /></a>
+                          <a href="https://www.tiktok.com/@realvjy" target="__blank"><img src="/tiktok.svg" alt="tiktok" /></a>
                         </li>
                       </ul>
                     </div>
