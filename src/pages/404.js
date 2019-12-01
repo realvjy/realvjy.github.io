@@ -55,6 +55,14 @@ class NotFoundPage extends React.Component {
           <div className="error-box">
             <img src="/404.gif" />
             <h1>FYI - Matargasti is my favorite song</h1>
+            <p>Matargashti Khuli Sadak Mein <br/>
+Tagdi Tadak Bhadak Mein <br/>
+Aule Girre Sulagte Se <br/>
+Sulagte Se Sadak Mein <br/>
+Chatri Na Thi Bagal Mein <br/>
+Aaya Hi Na Akal Mein <br/>
+Ke Bhaage Hum Ya Bheege Hum <br/>
+Akkad Mein Toh Socha Phir ...</p>
           </div>
         </div>
         <Footer/>

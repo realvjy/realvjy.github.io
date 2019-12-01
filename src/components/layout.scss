@@ -256,6 +256,7 @@ section{
   height: calc(100vh - 200px);
   @media (max-width: $mobile-landscape){
       font-size: 18px;
+      height: calc(100vh - 230px);
   }
 }
 .intro-image{
@@ -273,6 +274,10 @@ section{
 
 .btns{
   margin-top: 50px;
+  &.h-btns{
+    display: flex;
+
+  }
   .btn{
     display: inline-block;
     padding: 16px 24px;
@@ -291,9 +296,20 @@ section{
       background: $black;
     }
   }
+  &.h-btns{
+    @media (max-width: $mobile-landscape){
+        flex-direction: column;
+        margin-top: 30px;
+        .btn{
+          width: fit-content;
+          margin-bottom: 20px;
+        }
+    }
+  }
   .btn-outline{
 
   }
+
 }
 
 .story{
@@ -663,6 +679,12 @@ strong{
     font-size: 54px;
     font-family: $saria-extra-cond;
     margin: 24px;
+    @media (max-width: $mobile-landscape){
+        font-size: 40px;
+    }
+    p{
+      line-height: 160%;
+    }
   }
   img{
     width: 100%;
