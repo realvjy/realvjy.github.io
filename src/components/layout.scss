@@ -568,6 +568,9 @@ section{
             color: $black;
             width: 100%;
             flex-grow: 1;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
           }
         }
       }
@@ -588,6 +591,9 @@ section{
           background-color: $black;
           color: white;
           border: 1px solid $black;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
           cursor: pointer;
           @media (max-width: $mobile-landscape){
               margin-top: 20px;
