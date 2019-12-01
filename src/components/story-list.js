@@ -35,7 +35,7 @@ const WorkList = () => {
 
             <div className="story-box">
               <div className="story-title">
-                <a href="https://blog.vanila.io/my-design-journey-as-a-product-designer-c6ca991fdc7c" className="article">
+                <a href="https://medium.com/zomato-technology/why-we-switched-to-figma-as-the-primary-design-tool-at-zomato-1aa8fa931b0a" className="article">
                   <h1>Why we switched to Figma as the primary design tool at Zomato</h1>
                   <p>Figma makes it so much easier to design together at Zomato.</p>
                   <div className="meta">
