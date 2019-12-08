@@ -37,7 +37,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://illlustrations.co" target="__blank" className="thumb">
+                <a href="https://vijayverma.co/illlustrations" target="__blank" className="thumb">
                   <img src="/work/illlustrations.gif"/>
                   <div className="work-sum">
                     <div className="txt">
@@ -52,7 +52,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://uiprint.co" target="__blank" className="thumb">
+                <a href="https://vijayverma.co/uiprint" target="__blank" className="thumb">
                   <img src="/work/uiprint.png"/>
                   <div className="work-sum">
                     <div className="txt">
@@ -97,7 +97,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://uilogos.co" target="__blank" className="thumb">
+                <a href="https://vijayverma.co/uilogos" target="__blank" className="thumb">
                   <img src="/work/uilogos.png"/>
                   <div className="work-sum">
                     <div className="txt">
@@ -202,7 +202,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://uischool.co" target="__blank" className="thumb">
+                <a href="https://vijayverma.co/uischool" target="__blank" className="thumb">
                   <img src="/work/uischool.png"/>
                   <div className="work-sum">
                     <div className="txt">

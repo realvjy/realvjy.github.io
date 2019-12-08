@@ -99,17 +99,21 @@ class Contact extends React.Component {
                           <a href="https://medium.com/@realvjy" target="__blank"><img src="/medium.svg" alt="medium" /></a>
                         </li>
                         <li>
+                          <a href="https://www.buymeacoffee.com/realvjy" target="__blank"><img src="/coffee.svg" alt="tiktok" /></a>
+                        </li>
+                        <li>
                           <a href="https://www.linkedin.com/in/realvjy/" target="__blank"><img src="/linkedin.svg" alt="in"/></a>
                         </li>
                         <li>
                           <a href="https://www.producthunt.com/@realvjy" target="__blank"><img src="/product-hunt.svg" alt="ph"/></a>
                         </li>
                         <li>
-                          <a href="https://facebook.com/@realvjy" target="__blank"><img src="/facebook.svg" alt="facebook" /></a>
+                          <a href="https://facebook.com/realvjy" target="__blank"><img src="/facebook.svg" alt="facebook" /></a>
                         </li>
                         <li>
                           <a href="https://www.tiktok.com/@realvjy" target="__blank"><img src="/tiktok.svg" alt="tiktok" /></a>
                         </li>
+
                       </ul>
                     </div>
                   </div>
