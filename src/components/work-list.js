@@ -187,7 +187,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="#" target="__blank" className="thumb">
+                <a href="https://makerofthis.com/" target="__blank" className="thumb">
                   <img src="/work/maker.png"/>
                   <div className="work-sum">
                     <div className="txt">
