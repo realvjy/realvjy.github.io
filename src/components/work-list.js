@@ -191,7 +191,37 @@ const WorkList = () => {
                   <img src="/work/maker.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Project maker</h3>
+                      <h3>Maker of this</h3>
+                      <span>—</span>
+                      <h4>Coming Soon</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-box">
+              <div className="work-title">
+                <a href="#" target="__blank" className="thumb">
+                  <img src="/work/leafss.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>Project Leaf</h3>
+                      <span>—</span>
+                      <h4>Coming Soon</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-box">
+              <div className="work-title">
+                <a href="#" target="__blank" className="thumb">
+                  <img src="/work/odh.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>Open Design Hub</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>
@@ -214,6 +244,8 @@ const WorkList = () => {
                 </a>
               </div>
             </div>
+
+
 
             <div className="work-box">
               <div className="work-title">
