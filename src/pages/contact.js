@@ -42,9 +42,7 @@ class Contact extends React.Component {
                   <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
-                  <li>
-                    <a href="https://facebook.com/realvjy" target="__blank"><img src="/facebook.svg"/></a>
-                  </li>
+
                 </ul>
               </div>
             </nav>
@@ -72,6 +70,14 @@ class Contact extends React.Component {
 
                 <div className="perm-box">
                   <div className="perm">
+                    <h1>Free Skillshare Membership</h1>
+                    <p>I have <strong>free </strong>gift for you guys. Signup with this link <strong><a href="https://skl.sh/realvjy" className="blue-link">skl.sh/realvjy</a></strong> and you will get 2 free months of Skillshare Premium.</p>
+                    <p>You can also Use this Coupon Code: <strong><a href="https://skl.sh/realvjy" className="blue-link">igamb988</a></strong> </p>
+                  </div>
+                </div>
+
+                <div className="perm-box">
+                  <div className="perm">
                     <h1>Permision to repost my work</h1>
                     <p>You can post, as long as link proper credit back to my profile <strong>realvjy</strong> on any platform or this <strong>website</strong>.</p>
                   </div>
@@ -80,7 +86,7 @@ class Contact extends React.Component {
                 <div className="perm-box">
                   <div className="perm">
                     <h1>Social profiles</h1>
-                    <p>You can connect me on these platform with user name realvjy, even on my home planet <strong>mars</strong></p>
+                    <p>You can connect me on these platform with user name realvjy, even on my home planet <strong>mars.</strong></p>
                     <div className="social-profile">
                       <ul className="contact-social">
                         <li>

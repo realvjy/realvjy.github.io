@@ -43,9 +43,7 @@ class NotFoundPage extends React.Component {
                   <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
-                  <li>
-                    <a href="https://facebook.com/realvjy" target="__blank"><img src="/facebook.svg"/></a>
-                  </li>
+                  
                 </ul>
               </div>
             </nav>
