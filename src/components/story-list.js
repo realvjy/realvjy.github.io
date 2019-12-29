@@ -47,6 +47,18 @@ const WorkList = () => {
 
             <div className="story-box">
               <div className="story-title">
+                <a href="https://medium.muz.li/top-5-geometric-fonts-for-modern-ui-6c67bef7e67a" className="article">
+                  <h1>Top 5 geometric fonts for modern UI</h1>
+                  <p>Choosing the “right” font for your design is very important. Every font has specific design….</p>
+                  <div className="meta">
+                    <h4>March 11, 2019</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="story-box">
+              <div className="story-title">
                 <a href="https://blog.vanila.io/my-design-journey-as-a-product-designer-c6ca991fdc7c" className="article">
                   <h1>My design journey as a product designer</h1>
                   <p>A quick story about, how I started my design journey and joined Zomato.</p>
@@ -58,7 +70,13 @@ const WorkList = () => {
             </div>
 
           </div>
-
+          <div className="story-sub">
+            <div className="btns h-btns see-all">
+              <a href="https://medium.com/@realvjy" className="btn btn-outline">
+                See other stories.
+              </a>
+            </div>
+          </div>
           <div className="story-sub">
             <div className="form">
               <h1>Get design recipes from the master chef</h1>

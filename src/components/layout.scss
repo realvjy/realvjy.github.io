@@ -227,7 +227,7 @@ section{
         margin-top: 100px;
 
 
-        
+
         @media (max-width: $tablet-wide){
             margin-top: 80px;
         }
@@ -547,6 +547,16 @@ section{
 .story-sub{
   max-width: 700px;
   margin: 30px auto;
+  .see-all{
+      padding: 48px;
+      padding-top: 10px;
+      text-align: center;
+      justify-content: center;
+      margin: 0;
+      .btn{
+        margin: 0;
+      }
+  }
   .form{
     padding: 48px;
     border: 1px solid rgba(0,0,0,1);
