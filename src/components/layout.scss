@@ -321,9 +321,11 @@ section{
 
 }
 
-.story{
+.general, .story{
   margin-bottom: 100px;
 }
+
+
 .work{
   .work-wrap{
     display: flex;
@@ -361,6 +363,7 @@ section{
         }
       }
     }
+
     // Story box starting
     .story-box{
       max-width: 700px;
@@ -728,4 +731,117 @@ main{
 }
 .cover-img{
   width: 100%;
+}
+
+.general{
+  .general-wrap{
+    .other-work{
+      border-top: 1px solid $grey;
+      padding-top: 48px;
+      text-align: center;
+      margin-top: 100px;
+      ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        @media (max-width: $mobile-landscape){
+            flex-direction: column;
+        }
+        >li{
+          flex-direction: row;
+          margin: 12px;
+          font-size: 24px;
+          font-weight: 600;
+
+        }
+      }
+      h1{
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    // text box
+    .text-box{
+      max-width: 700px;
+      margin: 0 auto;
+      .text{
+        padding: 20px 48px;
+        h3{
+          font-size: 22px;
+          margin-top: 32px;
+          margin-bottom: 18px;
+        }
+
+        p{
+          font-size: 18px;
+          line-height: 170%;
+          a{
+            font-weight: 600;
+          }
+        }
+        ul{
+          li{
+            padding: 4px 0;
+            a{
+              line-height: 150%;
+              font-weight: 600;
+              background: none;
+              font-size: 22px;
+              img{
+                margin-right: 8px;
+                height: 20px;
+                width: 20px;
+                vertical-align: middle;
+              }
+              &:hover{
+                color: $blue;
+              }
+            }
+          }
+        }
+      }
+    }
+    // Screen Box
+    .screen-wrap{
+      margin-bottom: 48px;
+      img{
+        width: 100%;
+        border-radius: 20px;
+        -webkit-box-shadow: 0 24px 48px rgba(0,0,0,.18);
+        -moz-box-shadow: 0 24px 48px rgba(0,0,0,.18);
+        box-shadow: 0 24px 48px rgba(0,0,0,.18);
+        border: .2px solid $grey;
+      }
+
+
+      .caption-text{
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 48px;
+        h4{
+          font-size: 24px;
+          padding: 20px 48px;
+        }
+      }
+
+      .screens{
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: center;
+        .screen-full{
+          padding: 20px;
+        }
+        .screen-box{
+          width: 25%;
+          @media (max-width: $mobile-landscape){
+              width: 100%;
+          }
+          .mock{
+            padding: 20px;
+          }
+        }
+      }
+    }
+  }
 }

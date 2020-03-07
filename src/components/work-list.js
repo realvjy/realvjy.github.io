@@ -22,11 +22,11 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://zomato.com" target="__blank" className="thumb">
+                <a href="/zomato" className="thumb">
                   <img src="/work/zomato.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Zomato</h3>
+                      <h3>zomato</h3>
                       <span>—</span>
                       <h4>2018-Now</h4>
                     </div>
@@ -71,7 +71,7 @@ const WorkList = () => {
                   <img src="/work/sushi.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Sushi Design System</h3>
+                      <h3>sushi design system</h3>
                       <span>—</span>
                       <h4>2019</h4>
                     </div>
@@ -116,7 +116,7 @@ const WorkList = () => {
                   <img src="/work/eversend.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Eversend</h3>
+                      <h3>eversend</h3>
                       <span>—</span>
                       <h4>2017</h4>
                     </div>
@@ -176,7 +176,7 @@ const WorkList = () => {
                   <img src="/work/zuse.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Zuse Digital</h3>
+                      <h3>zuse digital</h3>
                       <span>—</span>
                       <h4>2017</h4>
                     </div>
@@ -191,7 +191,7 @@ const WorkList = () => {
                   <img src="/work/maker.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Maker of this</h3>
+                      <h3>maker of this</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>
@@ -206,7 +206,7 @@ const WorkList = () => {
                   <img src="/work/leafss.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Project Leaf</h3>
+                      <h3>project leaf</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>
@@ -221,7 +221,7 @@ const WorkList = () => {
                   <img src="/work/odh.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Open Design Hub</h3>
+                      <h3>open design hub</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>
@@ -236,7 +236,7 @@ const WorkList = () => {
                   <img src="/work/uischool.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>Uischool</h3>
+                      <h3>uischool</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>

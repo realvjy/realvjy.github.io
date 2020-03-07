@@ -13,7 +13,7 @@ class Contact extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="vijay verma - stories" />
+        <SEO title="vijay verma - contacts" />
         <section className="header_section">
           <div className="container">
             <nav>
