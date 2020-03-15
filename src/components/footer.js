@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-wrap">
             <div className="credit">
-              <h4>© vijay verma, 2019 <a href="/version/v3">...</a></h4>
+              <h4>© vijay verma, 2020 <a href="/version/v3">...</a></h4>
             </div>
             <div className="quote">
               <h4>stay hungry, stay foolish</h4>

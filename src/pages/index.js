@@ -18,18 +18,18 @@ class BlogIndex extends React.Component {
           <div className="container">
             <nav>
               <Link to={`/`} className="brand">
-                <img src="/realvjy.svg" className="logo" />
+                <h1><img src="/realvjy.svg" className="logo" alt="realvjy" /></h1>
               </Link>
               <div className="menu">
                 <ul className="menu-links">
                   <li>
-                    <a href="/story">story.</a>
+                    <a href="/story" title="my story">story.</a>
                   </li>
                   <li>
-                    <a href="/work">work.</a>
+                    <a href="/work" title="my best work">work.</a>
                   </li>
                   <li>
-                    <a href="/contact">contact.</a>
+                    <a href="/contact" title="my contact">contact.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
                   <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
-                  
+
                 </ul>
               </div>
             </nav>

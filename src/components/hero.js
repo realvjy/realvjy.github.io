@@ -9,7 +9,7 @@ const Hero = () => {
     return (
       <>
         <div className="intro-image">
-          <img src="/vijay-verma.jpg"/>
+          <img src="/vijay-verma.jpg" alt="realvjy image"/>
         </div>
         <section className="hero">
 
@@ -18,8 +18,8 @@ const Hero = () => {
               <div className="intro-box">
                 <div className="intro-txt">
                   <h1>I’m vijay verma.</h1>
-                  <h3>Designer, Maker, Dreamer</h3>
-                  <p>I'm spending my time cooking <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" targer="__blank">Sushi</a> and designing cool stuff at <a href="/zomato">Zomato</a>. When I'm not designing, I love to write code for designers and developers. Please don't explore this portfolio as it contains some of my best <a href="/work" targer="__blank">works.</a></p>
+                  <h2>Designer, Maker, Dreamer</h2>
+                  <p>I'm spending my time cooking <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" targer="__blank">Sushi</a> and designing cool stuff at <a href="/zomato" title="Zomato">Zomato</a>. When I'm not designing, I love to write code for designers and developers. Please don't explore this portfolio as it contains some of my best <a href="/work" targer="__blank">works.</a></p>
                 </div>
                 <div className="btns h-btns">
                   <a href="mailto:hello@vijayverma.co?subject=Saying Hello!!!" className="btn btn-outline">Say hi</a><a href="http://bit.ly/2LFfZRu" className="btn btn-outline">Know more</a>
