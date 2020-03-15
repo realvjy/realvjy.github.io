@@ -245,6 +245,21 @@ const WorkList = () => {
               </div>
             </div>
 
+            <div className="work-box">
+              <div className="work-title">
+                <a href="#" target="__blank" className="thumb">
+                  <img src="/work/contra-kit.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>contra wireframe kit</h3>
+                      <span>—</span>
+                      <h4>Coming Soon</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
 
 
             <div className="work-box">
