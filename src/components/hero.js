@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="hero-wrap">
               <div className="intro-box">
                 <div className="intro-txt">
-                  <h1>I’m vijay verma.</h1>
+                  <h1>I’m vijay verma <small>(realvjy)</small>.</h1>
                   <h2>Designer, Maker, Dreamer</h2>
                   <p>I'm spending my time cooking <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" targer="__blank">Sushi</a> and designing cool stuff at <a href="/zomato" title="Zomato">Zomato</a>. When I'm not designing, I love to write code for designers and developers. Please don't explore this portfolio as it contains some of my best <a href="/work" targer="__blank">works.</a></p>
                 </div>

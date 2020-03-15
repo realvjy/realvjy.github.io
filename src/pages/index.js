@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
           <div className="container">
             <nav>
               <Link to={`/`} className="brand">
-                <h1><img src="/realvjy.svg" className="logo" alt="realvjy" /></h1>
+                <img src="/realvjy.svg" className="logo" alt="realvjy" />
               </Link>
               <div className="menu">
                 <ul className="menu-links">
