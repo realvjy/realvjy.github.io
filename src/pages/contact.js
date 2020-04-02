@@ -86,7 +86,7 @@ class Contact extends React.Component {
                 <div className="perm-box">
                   <div className="perm">
                     <h1>Social profiles</h1>
-                    <p>You can connect me on these platform with user name realvjy, even on my home planet <strong>mars.</strong></p>
+                    <p>You can connect me on these platform with user name realvjy, even on my home planet <strong><a href="https://mars.nasa.gov/participate/send-your-name/mars2020/certificate/892758447781" targer="__blank">mars</a>.</strong></p>
                     <div className="social-profile">
                       <ul className="contact-social">
                         <li>
