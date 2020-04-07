@@ -58,7 +58,7 @@ class Zomato extends React.Component {
             <div className="general-wrap ">
               <div className="text-box">
                 <div className="text">
-                  <p>After 3 years of working as a freelance, I decided to join the design team at Zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5">Sushi Design System</a>.</p>
+                  <p>After 3 years of working as a freelance, I decided to join the design team at Zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="/sushi">Sushi Design System</a>.</p>
                   <h3>Live Consumer Products</h3>
                   <ul>
                     <li><a href="https://bnc.lt/download-zomato-ios" target="__blank"><img src="/ios.svg"/> iOS app</a></li>
@@ -170,7 +170,7 @@ class Zomato extends React.Component {
                 <h1>other works</h1>
                 <ul>
                   <li><a href="/work">all.</a></li>
-                  <li><a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5">sushi design system.</a></li>
+                  <li><a href="/sushi">sushi design system.</a></li>
                   <li><a href="http://eversend.co/" target="__blank">eversend.</a></li>
                 </ul>
               </div>

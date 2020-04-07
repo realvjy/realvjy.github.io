@@ -37,11 +37,41 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
+                <a href="https://www.producthunt.com/upcoming/contra-wireframe-kit/" target="__blank" className="thumb">
+                  <img src="/work/contra-kit.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>contra wireframe kit</h3>
+                      <span>—</span>
+                      <h4>2020</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-box">
+              <div className="work-title">
                 <a href="https://vijayverma.co/illlustrations" target="__blank" className="thumb">
                   <img src="/work/illlustrations.gif"/>
                   <div className="work-sum">
                     <div className="txt">
                       <h3>illlustrations</h3>
+                      <span>—</span>
+                      <h4>2019</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-box">
+              <div className="work-title">
+                <a href="/sushi" className="thumb">
+                  <img src="/work/sushi.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>sushi design system</h3>
                       <span>—</span>
                       <h4>2019</h4>
                     </div>
@@ -65,20 +95,7 @@ const WorkList = () => {
               </div>
             </div>
 
-            <div className="work-box">
-              <div className="work-title">
-                <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" target="__blank" className="thumb">
-                  <img src="/work/sushi.png"/>
-                  <div className="work-sum">
-                    <div className="txt">
-                      <h3>sushi design system</h3>
-                      <span>—</span>
-                      <h4>2019</h4>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+
 
             <div className="work-box">
               <div className="work-title">
@@ -233,10 +250,10 @@ const WorkList = () => {
             <div className="work-box">
               <div className="work-title">
                 <a href="https://vijayverma.co/uischool" target="__blank" className="thumb">
-                  <img src="/work/uischool.png"/>
+                  <img src="/work/uixool.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>uischool</h3>
+                      <h3>uixool</h3>
                       <span>—</span>
                       <h4>Coming Soon</h4>
                     </div>
@@ -244,23 +261,6 @@ const WorkList = () => {
                 </a>
               </div>
             </div>
-
-            <div className="work-box">
-              <div className="work-title">
-                <a href="#" target="__blank" className="thumb">
-                  <img src="/work/contra-kit.png"/>
-                  <div className="work-sum">
-                    <div className="txt">
-                      <h3>contra wireframe kit</h3>
-                      <span>—</span>
-                      <h4>Coming Soon</h4>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-
 
             <div className="work-box">
               <div className="work-title">
