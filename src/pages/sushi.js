@@ -52,7 +52,7 @@ class Sushi extends React.Component {
         <section className="work general">
           <div className="container">
             <div className="section-info">
-              <h1>Sushi Design System</h1>
+              <h1>sushi design system</h1>
               <p>2019</p>
             </div>
             <div className="general-wrap ">
