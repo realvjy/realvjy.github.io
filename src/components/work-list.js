@@ -37,7 +37,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://www.producthunt.com/upcoming/contra-wireframe-kit/" target="__blank" className="thumb">
+                <a href="https://contrauikit.com" target="__blank" className="thumb">
                   <img src="/work/contra-kit.png"/>
                   <div className="work-sum">
                     <div className="txt">
