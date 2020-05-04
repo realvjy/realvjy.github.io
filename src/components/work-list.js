@@ -129,7 +129,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://eversend.co" target="__blank" className="thumb">
+                <a href="/eversend" target="__blank" className="thumb">
                   <img src="/work/eversend.png"/>
                   <div className="work-sum">
                     <div className="txt">

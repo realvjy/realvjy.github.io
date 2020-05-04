@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
 
-class Zomato extends React.Component {
+class Eversend extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -13,7 +13,7 @@ class Zomato extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="zomato - vijay verma" />
+        <SEO title="eversend - vijay verma" />
         <section className="header_section">
           <div className="container">
             <nav>
@@ -52,68 +52,85 @@ class Zomato extends React.Component {
         <section className="work general">
           <div className="container">
             <div className="section-info">
-              <h1>zomato</h1>
-              <p>2018-now</p>
+              <h1>eversend</h1>
+              <p>2017</p>
             </div>
             <div className="general-wrap ">
               <div className="text-box">
                 <div className="text">
-                  <p>After 3 years of working as a freelance, I decided to join the design team at Zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="/sushi">Sushi Design System</a>.</p>
-                  <h3>Live Consumer Products</h3>
+                  <p>A neobank for Africans, anywhere in the world. It’s a multi-currency e-wallet that allows you to exchange, spend and send money at the best possible rates. Insurance, virtual debit cards, and bill payments.</p>
+                  <h3>Live Products</h3>
                   <ul>
-                    <li><a href="https://bnc.lt/download-zomato-ios" target="__blank"><img src="/ios.svg"/> iOS app</a></li>
-                    <li><a href="https://bnc.lt/download-z-android" target="__blank"><img src="/android.svg"/> Android app</a></li>
-                    <li><a href="https://zomato.com/" target="__blank"><img src="/web.svg"/> zomato.com</a></li>
+                    <li><a href="https://apps.apple.com/app/eversend-neobank-for-africa/id1438341192" target="__blank"><img src="/ios.svg"/> iOS app</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.eversendapp" target="__blank"><img src="/android.svg"/> Android app</a></li>
+                    <li><a href="https://eversend.co/" target="__blank"><img src="/web.svg"/> eversend.co</a></li>
                   </ul>
                 </div>
               </div>
 
               <div className="screen-wrap">
                 <div className="caption-text">
-                  <h4>Screens - v14 app (2019)</h4>
+                  <h4>Screens (v1.0)</h4>
                 </div>
                 <div className="screens">
-                  <div className="screen-full">
-                    <img src="/zomato/zomato-app.png" />
-                  </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-splash.png"/>
+                      <img src="/eversend/splash.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-login.png"/>
+                      <img src="/eversend/dashboard.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-order-menu.png"/>
+                      <img src="/eversend/load.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-customize-menu.png"/>
+                      <img src="/eversend/send-money.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-restaurant.png"/>
+                      <img src="/eversend/pay-dashboard.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-collections.png"/>
+                      <img src="/eversend/currency-send-list.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-collection-details.png"/>
+                      <img src="/eversend/profile-setting.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/zomato/v14-goout.png"/>
+                      <img src="/eversend/refer-sign-ups.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/eversend/notify.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/eversend/eversend-cards.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/eversend/more-dash.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/eversend/trading-details.png"/>
                     </div>
                   </div>
                 </div>
@@ -121,47 +138,12 @@ class Zomato extends React.Component {
 
               <div className="screen-wrap">
                 <div className="caption-text">
-                  <h4>Screens - v13 app (2018)</h4>
+                  <h4>Web Landing Page - 2017</h4>
                 </div>
                 <div className="screens">
-                  <div className="screen-box">
+                  <div className="screen-full">
                     <div className="mock">
-                      <img src="/zomato/v13-order_food_home.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-order-menu.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-search-map.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-restaurant.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-book-table-calender.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-search-suggestion.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-search.jpg"/>
-                    </div>
-                  </div>
-                  <div className="screen-box">
-                    <div className="mock">
-                      <img src="/zomato/v13-single-dish.jpg"/>
+                      <img src="/eversend/web-index.jpg"/>
                     </div>
                   </div>
                 </div>
@@ -171,7 +153,7 @@ class Zomato extends React.Component {
                 <ul>
                   <li><a href="/work">all.</a></li>
                   <li><a href="/sushi">sushi design system.</a></li>
-                  <li><a href="/eversend" target="__blank">eversend.</a></li>
+                  <li><a href="/zomato" target="__blank">zomato.</a></li>
                 </ul>
               </div>
 
@@ -188,7 +170,7 @@ class Zomato extends React.Component {
   }
 }
 
-export default Zomato
+export default Eversend
 
 export const pageQuery = graphql`
   query {
