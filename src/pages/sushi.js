@@ -77,7 +77,7 @@ class Sushi extends React.Component {
                   <li><a href="/work">all.</a></li>
                   <li><a href="/zomato">zomato.</a></li>
                   <li><a href="/illlustrations">illlustrations.</a></li>
-                  <li><a href="/eversend" target="__blank">eversend.</a></li>
+                  <li><a href="/eversend">eversend.</a></li>
                 </ul>
               </div>
 

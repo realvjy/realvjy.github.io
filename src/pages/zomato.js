@@ -171,7 +171,7 @@ class Zomato extends React.Component {
                 <ul>
                   <li><a href="/work">all.</a></li>
                   <li><a href="/sushi">sushi design system.</a></li>
-                  <li><a href="/eversend" target="__blank">eversend.</a></li>
+                  <li><a href="/eversend">eversend.</a></li>
                 </ul>
               </div>
 
