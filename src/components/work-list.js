@@ -34,6 +34,21 @@ const WorkList = () => {
                 </a>
               </div>
             </div>
+            
+            <div className="work-box">
+              <div className="work-title">
+                <a href="https://blush.design/collections/croods" target="__blank" className="thumb">
+                  <img src="/work/croods.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>croods</h3>
+                      <span>—</span>
+                      <h4>2020</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
 
             <div className="work-box">
               <div className="work-title">
@@ -64,6 +79,8 @@ const WorkList = () => {
                 </a>
               </div>
             </div>
+
+
 
             <div className="work-box">
               <div className="work-title">
