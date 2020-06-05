@@ -34,7 +34,22 @@ const WorkList = () => {
                 </a>
               </div>
             </div>
-            
+
+            <div className="work-box">
+              <div className="work-title">
+                <a href="http://designletter.co/?ref=realvjy" target="__blank" className="thumb">
+                  <img src="/work/designletter.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>designletter</h3>
+                      <span>—</span>
+                      <h4>2020</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
             <div className="work-box">
               <div className="work-title">
                 <a href="https://blush.design/collections/croods" target="__blank" className="thumb">
