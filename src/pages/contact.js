@@ -71,8 +71,8 @@ class Contact extends React.Component {
                 <div className="perm-box">
                   <div className="perm">
                     <h1>Free Skillshare Membership</h1>
-                    <p>I have <strong>free </strong>gift for you guys. Signup with this link <strong><a href="https://skl.sh/realvjy" className="blue-link">skl.sh/realvjy</a></strong> and you will get 2 free months of Skillshare Premium.</p>
-                    <p>You can also Use this Coupon Code: <strong><a href="https://skl.sh/realvjy" className="blue-link">igamb988</a></strong> </p>
+                    <p>I have <strong>free </strong>gift for you guys. Signup with this link <strong><a href="https://www.skillshare.com/signup?coupon=igamb2" className="blue-link">skl.sh/realvjy</a></strong> and you will get 2 free months of Skillshare Premium.</p>
+                    <p>You can also Use this Coupon Code: <strong><a href="https://www.skillshare.com/signup?coupon=igamb2" className="blue-link">igamb2</a></strong> </p>
                   </div>
                 </div>
 
@@ -132,7 +132,7 @@ class Contact extends React.Component {
             <div className="story-sub">
               <div className="form">
                 <h1>Get design recipes from the master chef</h1>
-                <p>Subscribe to the newsletter to get exclusive updates & digital art inspiration in your inbox.</p>
+                <p>Subscribe to the <a href="http://designletter.co" className="blue-link">designletter</a> to get exclusive updates & digital art inspiration in your inbox.</p>
 
                 <div id="mc_embed_signup">
                   <form action="https://designletter.us10.list-manage.com/subscribe/post?u=ac670d4650872310b44fc59b4&amp;id=2728fe6fff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
