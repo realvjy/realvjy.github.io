@@ -37,7 +37,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="http://designletter.co/?ref=realvjy" target="__blank" className="thumb">
+                <a href="https://vijayverma.co/designletter" className="thumb">
                   <img src="/work/designletter.png"/>
                   <div className="work-sum">
                     <div className="txt">

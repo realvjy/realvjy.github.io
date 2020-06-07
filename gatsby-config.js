@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-      	endpoint: `https://vijayverma.us14.list-manage.com/subscribe post?u=ed1f62133209766c02f08fd47&amp;id=c4285438c3`,
+      	endpoint: `https://designletter.us10.list-manage.com/subscribe/post?u=ac670d4650872310b44fc59b4&amp;id=2728fe6fff`,
       },
     },
     `gatsby-plugin-offline`,
