@@ -64,9 +64,52 @@ class Sushi extends React.Component {
               </div>
 
               <div className="screen-wrap">
+                <div className="caption-text">
+                  <h4>Sushi - Demo app screens</h4>
+                </div>
                 <div className="screens">
                   <div className="screen-full">
-                    <img src="/sushi/sushi-cover.png" />
+                    <img src="/sushi/sushi-cover.png"/>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-splash.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-home.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-color-system.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-typography.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-icons.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-buttons.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-about.png"/>
+                    </div>
+                  </div>
+                  <div className="screen-box">
+                    <div className="mock">
+                      <img src="/sushi/sushi-about-dark.png"/>
+                    </div>
                   </div>
                 </div>
               </div>
