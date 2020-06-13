@@ -76,6 +76,7 @@ class Zomato extends React.Component {
                   <div className="screen-full">
                     <img src="/zomato/v15-soon.png" />
                   </div>
+                </div>
               </div>
 
               <div className="screen-wrap">
