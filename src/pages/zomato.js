@@ -132,6 +132,20 @@ class Zomato extends React.Component {
 
               <div className="screen-wrap">
                 <div className="caption-text">
+                  <h4>Screens - Web 2.0 (2020)</h4>
+                </div>
+                <div className="screens">
+                  <div className="screen-full">
+                    <img src="/zomato/web-2-rest.png" />
+                  </div>
+                  <div className="screen-full">
+                    <img src="/zomato/web-2-order.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="screen-wrap">
+                <div className="caption-text">
                   <h4>Screens - v13 app (2018)</h4>
                 </div>
                 <div className="screens">
