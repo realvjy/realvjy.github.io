@@ -131,7 +131,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://vijayverma.co/uigate" target="__blank" className="thumb">
+                <a href="https://dribbble.com/uigate" target="__blank" className="thumb">
                   <img src="/work/uigate.png"/>
                   <div className="work-sum">
                     <div className="txt">
