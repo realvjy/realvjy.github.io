@@ -79,8 +79,8 @@ const WorkList = () => {
           </div>
           <div className="story-sub">
             <div className="form">
-              <h1>Get design recipes from the master chef</h1>
-              <p>Subscribe to the newsletter to get exclusive updates & digital art inspiration in your inbox.</p>
+            <h1>Get design recipes from the master chef</h1>
+            <p>Subscribe to the <a href="https://designletter.co" className="blue-link">designletter</a> to get exclusive updates & digital art inspiration in your inbox.</p>
 
               <div id="mc_embed_signup">
                 <form action="https://designletter.us10.list-manage.com/subscribe/post?u=ac670d4650872310b44fc59b4&amp;id=2728fe6fff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
