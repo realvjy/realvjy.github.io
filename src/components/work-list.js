@@ -40,7 +40,7 @@ const WorkList = () => {
                   <img src="/work/mocups.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>MOCUPS</h3>
+                      <h3>mocups</h3>
                       <span>—</span>
                       <h4>2020</h4>
                     </div>
