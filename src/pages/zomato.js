@@ -40,6 +40,9 @@ class Zomato extends React.Component {
                     <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
+                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg"/></a>
+                  </li>
+                  <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
 
@@ -58,7 +61,7 @@ class Zomato extends React.Component {
             <div className="general-wrap ">
               <div className="text-box">
                 <div className="text">
-                  <p>After 3 years of working as a freelance, I decided to join the design team at Zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="/sushi">Sushi Design System</a>.</p>
+                  <p>After 3 years of working as a freelance, I decided to join the design team at zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="/sushi">Sushi Design System</a>.</p>
                   <h3>Live Consumer Products</h3>
                   <ul>
                     <li><a href="https://bnc.lt/download-zomato-ios" target="__blank"><img src="/ios.svg"/> iOS app</a></li>

@@ -40,6 +40,9 @@ class Sushi extends React.Component {
                     <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
+                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg"/></a>
+                  </li>
+                  <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
 
@@ -58,14 +61,14 @@ class Sushi extends React.Component {
             <div className="general-wrap ">
               <div className="text-box">
                 <div className="text">
-                  <p>Sushi is Zomato’s very own design system, which helps build robust user interfaces following a clean and simple design language.</p>
-                  <h3>Read here : <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" target="_blank" className="blue-link">Zomato’s new Sushi Design System</a></h3>
+                  <p>Sushi is zomato’s very own design system, which helps build robust user interfaces following a clean and simple design language.</p>
+                  <h3>Read here : <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" target="_blank" className="blue-link">zomato’s new Sushi Design System</a></h3>
                 </div>
               </div>
 
               <div className="screen-wrap">
                 <div className="caption-text">
-                  <h4>Sushi - Demo app screens</h4>
+                  <h4>sushi - demo app screens</h4>
                 </div>
                 <div className="screens">
                   <div className="screen-full">

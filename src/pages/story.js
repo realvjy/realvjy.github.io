@@ -41,9 +41,12 @@ class Story extends React.Component {
                     <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
+                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg"/></a>
+                  </li>
+                  <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
-                  
+
                 </ul>
               </div>
             </nav>

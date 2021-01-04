@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className="intro-txt">
                   <h1>I’m vijay verma<small> (realvjy)</small>.</h1>
                   <h2>Designer, Maker, Dreamer</h2>
-                  <p>I'm spending my time cooking <a href="/sushi" targer="__blank">Sushi</a> and designing cool stuff at <a href="/zomato" title="Zomato">Zomato</a>. When I'm not designing, I love to write code for designers and developers. Please don't explore this portfolio as it contains some of my best <a href="/work" targer="__blank">works.</a></p>
+                  <p>I'm spending my time cooking <a href="/sushi" targer="__blank">sushi</a> and designing cool stuff at <a href="/zomato" title="zomato">zomato</a>. When I'm not designing, I love to write code for designers and developers. Please don't explore this portfolio as it contains some of my best <a href="/work" targer="__blank">works.</a></p>
                 </div>
                 <div className="btns h-btns">
                   <a href="mailto:hello@vijayverma.co?subject=Saying Hello!!!" className="btn btn-outline">Say hi</a><a href="http://bit.ly/2LFfZRu" className="btn btn-outline">Know more</a>

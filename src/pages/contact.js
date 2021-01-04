@@ -90,34 +90,37 @@ class Contact extends React.Component {
                     <div className="social-profile">
                       <ul className="contact-social">
                         <li>
-                          <a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg" alt="dribbble"/></a>
+                          <a href="https://dribbble.com/realvjy" target="__blank" title="dribbble"><img src="/dribbble.svg" alt="dribbble"/></a>
                         </li>
                         <li>
-                          <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg" alt="insta"/></a>
+                          <a href="https://instagram.com/realvjy" target="__blank" title="instagram"><img src="/insta.svg" alt="insta"/></a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg" alt="tw"/></a>
+                          <a href="https://twitter.com/realvjy" target="__blank" title="twitter"><img src="/twitter.svg" alt="tw"/></a>
                         </li>
                         <li>
-                          <a href="https://www.behance.net/realvjy" target="__blank"><img src="/behance.svg" alt="be"/></a>
+                          <a href="https://figma.com/@realvjy" target="__blank" title="figma"><img src="/figma.svg" alt="figma"/></a>
                         </li>
                         <li>
-                          <a href="https://medium.com/@realvjy" target="__blank"><img src="/medium.svg" alt="medium" /></a>
+                          <a href="https://www.behance.net/realvjy" target="__blank" title="behance"><img src="/behance.svg" alt="be"/></a>
                         </li>
                         <li>
-                          <a href="https://www.buymeacoffee.com/realvjy" target="__blank"><img src="/coffee.svg" alt="coffee" /></a>
+                          <a href="https://medium.com/@realvjy" target="__blank" title="medium"><img src="/medium.svg" alt="medium" /></a>
                         </li>
                         <li>
-                          <a href="https://www.linkedin.com/in/realvjy/" target="__blank"><img src="/linkedin.svg" alt="in"/></a>
+                          <a href="https://www.buymeacoffee.com/realvjy" target="__blank" title="buymeacoffee"><img src="/coffee.svg" alt="coffee" /></a>
                         </li>
                         <li>
-                          <a href="https://www.producthunt.com/@realvjy" target="__blank"><img src="/product-hunt.svg" alt="ph"/></a>
+                          <a href="https://www.linkedin.com/in/realvjy/" target="__blank" title="linkedin"><img src="/linkedin.svg" alt="in"/></a>
                         </li>
                         <li>
-                          <a href="https://facebook.com/realvjy" target="__blank"><img src="/facebook.svg" alt="facebook" /></a>
+                          <a href="https://www.producthunt.com/@realvjy" target="__blank" title="producthunt"><img src="/product-hunt.svg" alt="ph"/></a>
                         </li>
                         <li>
-                          <a href="https://www.youtube.com/realvjy" target="__blank"><img src="/youtube.svg" alt="youtube" /></a>
+                          <a href="https://facebook.com/realvjy" target="__blank" title="facebook"><img src="/facebook.svg" alt="facebook" /></a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/realvjy" target="__blank" title="youtube"><img src="/youtube.svg" alt="youtube" /></a>
                         </li>
 
                       </ul>
