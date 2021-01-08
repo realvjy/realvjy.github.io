@@ -40,6 +40,9 @@ class Contact extends React.Component {
                     <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
+                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg"/></a>
+                  </li>
+                  <li>
                     <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
 
@@ -96,10 +99,10 @@ class Contact extends React.Component {
                           <a href="https://instagram.com/realvjy" target="__blank" title="instagram"><img src="/insta.svg" alt="insta"/></a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/realvjy" target="__blank" title="twitter"><img src="/twitter.svg" alt="tw"/></a>
+                          <a href="https://figma.com/@realvjy" target="__blank" title="figma"><img src="/figma.svg" alt="figma"/></a>
                         </li>
                         <li>
-                          <a href="https://figma.com/@realvjy" target="__blank" title="figma"><img src="/figma.svg" alt="figma"/></a>
+                          <a href="https://twitter.com/realvjy" target="__blank" title="twitter"><img src="/twitter.svg" alt="tw"/></a>
                         </li>
                         <li>
                           <a href="https://www.behance.net/realvjy" target="__blank" title="behance"><img src="/behance.svg" alt="be"/></a>
