@@ -36,6 +36,20 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
+                <a href="#" target="__blank" className="thumb">
+                  <img src="/work/bloo-uikit.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>bloo wireframe kit</h3>
+                      <span>—</span>
+                      <h4>coming soon</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="work-box">
+              <div className="work-title">
                 <a href="https://blush.design/collections/allura" target="__blank" className="thumb">
                   <img src="/work/allura.png"/>
                   <div className="work-sum">
@@ -271,7 +285,7 @@ const WorkList = () => {
                     <div className="txt">
                       <h3>maker of this</h3>
                       <span>—</span>
-                      <h4>Coming Soon</h4>
+                      <h4>coming soon</h4>
                     </div>
                   </div>
                 </a>
@@ -286,7 +300,7 @@ const WorkList = () => {
                     <div className="txt">
                       <h3>project leaf</h3>
                       <span>—</span>
-                      <h4>Coming Soon</h4>
+                      <h4>coming soon</h4>
                     </div>
                   </div>
                 </a>
@@ -301,7 +315,7 @@ const WorkList = () => {
                     <div className="txt">
                       <h3>open design hub</h3>
                       <span>—</span>
-                      <h4>Coming Soon</h4>
+                      <h4>coming soon</h4>
                     </div>
                   </div>
                 </a>
@@ -316,7 +330,7 @@ const WorkList = () => {
                     <div className="txt">
                       <h3>uixool</h3>
                       <span>—</span>
-                      <h4>Coming Soon</h4>
+                      <h4>coming soon</h4>
                     </div>
                   </div>
                 </a>
