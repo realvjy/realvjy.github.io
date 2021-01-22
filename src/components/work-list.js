@@ -40,7 +40,7 @@ const WorkList = () => {
                   <img src="/work/bloo-uikit.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>bloo lo-fi wireframe kit</h3>
+                      <h3>bloo <br/>wireframe kit</h3>
                       <span>—</span>
                       <h4>Early Access</h4>
                     </div>
