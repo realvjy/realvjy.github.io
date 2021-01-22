@@ -36,13 +36,13 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
-                <a href="#" target="__blank" className="thumb">
+                <a href="http://bloouikit.com" target="__blank" className="thumb">
                   <img src="/work/bloo-uikit.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>bloo wireframe kit</h3>
+                      <h3>bloo lo-fi wireframe kit</h3>
                       <span>—</span>
-                      <h4>coming soon</h4>
+                      <h4>Early Access</h4>
                     </div>
                   </div>
                 </a>
