@@ -30,7 +30,7 @@ class Story extends React.Component {
                     <a href="/work">work.</a>
                   </li>
                   <li>
-                    <a href="/contact">contact.</a>
+                    <a href="/contact">info.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">

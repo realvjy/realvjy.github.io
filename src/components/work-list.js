@@ -15,7 +15,7 @@ const WorkList = () => {
       <section className="work">
         <div className="container">
           <div className="section-info">
-            <h1>work.</h1>
+            <h1 className="gradient blue">work.</h1>
             <p>I put my heart and soul in these projects. Now that you're on this page, feel free to explore.</p>
           </div>
           <div className="work-wrap">
@@ -40,7 +40,7 @@ const WorkList = () => {
                   <img src="/work/bloo-uikit.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>bloo <br/>wireframe kit</h3>
+                      <h3>bloo wireframe kit</h3>
                       <span>—</span>
                       <h4>Early Access</h4>
                     </div>

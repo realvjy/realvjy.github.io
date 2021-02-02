@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
+import Footer from "../components/footer"
 
 class BlogIndex extends React.Component {
   render() {
@@ -29,7 +30,7 @@ class BlogIndex extends React.Component {
                     <a href="/work" title="my best work">work.</a>
                   </li>
                   <li>
-                    <a href="/contact" title="my contact">contact.</a>
+                    <a href="/contact" title="my contact">info.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -52,7 +53,7 @@ class BlogIndex extends React.Component {
           </div>
         </section>
         <Hero />
-
+        <Footer />
       </Layout>
     )
   }

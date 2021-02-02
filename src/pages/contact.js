@@ -29,7 +29,7 @@ class Contact extends React.Component {
                     <a href="/work">work.</a>
                   </li>
                   <li className="active">
-                    <a href="/contact">contact.</a>
+                    <a href="/contact">info.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -55,7 +55,7 @@ class Contact extends React.Component {
         <section className="work story">
           <div className="container">
             <div className="section-info">
-              <h1>contact.</h1>
+              <h1 className="gradient purple">contact.</h1>
               <p>It’s not that hard to find my contact just search <a href="https://www.google.com/search?q=realvjy" className="normal-link">realvjy</a>.</p>
             </div>
             <div className="work-wrap ">
