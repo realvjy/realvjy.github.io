@@ -18,9 +18,9 @@ class Story extends React.Component {
         <section className="header_section">
           <div className="container">
             <nav>
-              <Link to={`/`} className="brand">
-                <img src="/realvjy.svg" className="logo" />
-              </Link>
+            <Link to={`/`} className="brand">
+
+            </Link>
               <div className="menu">
                 <ul className="menu-links">
                   <li className="active">
