@@ -55,7 +55,7 @@ class Contact extends React.Component {
         <section className="work story">
           <div className="container">
             <div className="section-info">
-              <h1 className="gradient purple">contact.</h1>
+              <h1 className="gradient pink">contact.</h1>
               <p>It’s not that hard to find my contact just search <a href="https://www.google.com/search?q=realvjy" className="normal-link">realvjy</a>.</p>
             </div>
             <div className="work-wrap ">
