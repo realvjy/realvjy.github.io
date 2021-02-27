@@ -13,10 +13,10 @@ const Hero = () => {
             <div className="hero-wrap">
               <div className="tagline">
                 <h1 className="title animated">
-                  <span className="gradient blue">designer.</span>
-                  <span className="gradient red">maker.</span>
-                  <span className="gradient purple">dreamer.</span>
-                  <span className="gradient red">adventurer.</span>
+                  <span><h3 className="gradient blue">designer.</h3></span>
+                  <span><h3 className="gradient pink">maker.</h3></span>
+                  <span><h3 className="gradient orange">dreamer.</h3></span>
+                  <span><h3 className="gradient yellow">adventurer.</h3></span>
                 </h1>
               </div>
 

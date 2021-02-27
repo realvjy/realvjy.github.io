@@ -2,14 +2,25 @@
 
 
 // Variables
+
+$g-sky: #4AB1F1;
+$g-blue: #566CEC;
+$g-pink: #D749AF;
+$g-orange: #FF7C51;
+$g-yellow: #F2B14D;
+$g-green: #6BBBA6;
+
 $black: #000000;
 $white: #ffffff;
 $lightbg: #EEE7D6;
 $yellow: #F7C945;
-$grey: #F1EDE9;
+$grey: #5F5F5F;
 $blue: #0A72EF;
 $red: #CA324F;
 $light-grey: #353639;
+
+$dark-bg: #1A1A1A;
+
 
 // fonts
 $inter: 'Inter', sans-serif;
@@ -27,13 +38,36 @@ $widescreen: 71.25rem; // 1140px
     --emo-out: cubic-bezier(0, .2, .2, 1);
 }
 
+// Dark mode
+body {
+  --bg: white;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: blue;
+  --hr: hsla(0, 0%, 0%, 0.2);
+  --brand: url("/realvjy-white.png") top right / 112px 21px no-repeat;
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #000000;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: white;
+  --textLink: yellow;
+  --brand: url("/realvjy-black.png") top right / 112px 21px no-repeat;
+  --hr: hsla(0, 0%, 100%, 0.2);
+}
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  color: $black;
+  color: var(--textNormal);
   vertical-align: baseline;
  }
 
@@ -94,29 +128,35 @@ img{
   vertical-align: middle;
 }
 
+
+
 // Gradient Text
 .gradient{
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
-
+  display: inline-block;
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  &.red{
-    background-color: #F03523;
-    background-image: linear-gradient(90deg, #F03523, #FFB800);
-  }
   &.blue{
-    background-color: #1584EB;
-    background-image: linear-gradient(90deg, #1584EB, #24D6D9);
+    background-color: $g-blue;
+    background-image: linear-gradient(90deg, $g-sky 0%, $g-blue 25%, $g-pink 75%, $g-orange 100%);
   }
-  &.purple{
-    background-color: #8D2DE3;
-    background-image: linear-gradient(90deg, #8D2DE3, #FF2497);
+  &.pink{
+    background-color: $g-pink;
+    background-image: linear-gradient(90deg, $g-blue 0%, $g-pink 25%, $g-orange 75%, $g-yellow 100%);
+  }
+  &.orange{
+    background-color: $g-orange;
+    background-image: linear-gradient(90deg, $g-pink 0%, $g-orange 25%, $g-yellow 75%, $g-green 100%);
+  }
+  &.yellow{
+    background-color: $g-green;
+    background-image: linear-gradient(90deg, $g-orange 0%, $g-yellow 25%, $g-green 75%, $g-sky 100%);
   }
 }
 
@@ -136,8 +176,9 @@ section{
 
 // animation
 .animated {
-  display: block;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .animated span {
@@ -147,6 +188,7 @@ section{
   width: 100%;
   height: 100%;
   vertical-align: middle;
+  text-align: center;
   left: 0;
   top: 0;
   -ms-animation: topToBottom 8s infinite;
@@ -181,6 +223,9 @@ section{
 
 
 .hero{
+    background: url("/g-bg.svg") 50% no-repeat;
+    background-size: 1100px auto;
+    padding-bottom: 120px;
     .hero-wrap{
       text-align: center;
       padding: 24px;
@@ -249,6 +294,9 @@ section{
     }
     .brand{
       padding: 6px 0;
+      height: 21px;
+      width: 112px;
+      background: var(--brand);
       img{
         height: 20px;
         -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -256,7 +304,9 @@ section{
         -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+
       }
+
       &:hover{
         img{
           opacity: .8;
@@ -491,7 +541,7 @@ section{
     // Story Box ending
     // Work wox starting
     .work-box{
-      width: 25%;
+      width: 33.33%;
 
       @media (max-width: $mobile-landscape){
           width: 50%;
@@ -927,6 +977,107 @@ main{
   }
 }
 
+.featured, .worked{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    position: relative;
+    margin: 100px auto;
+
+    h4{
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      text-align: center;
+      color: $grey;
+    }
+    .companies{
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        @media (max-width: $mobile-landscape){
+            flex-direction: column;
+        }
+        li{
+          display: block;
+          @media (max-width: $mobile-landscape){
+              margin-bottom: 20px;
+          }
+          img{
+            height: 36px;
+            margin-left: 24px;
+            margin-right: 24px;
+            @media (max-width: $mobile-landscape){
+                height: 28px;
+            }
+          }
+        }
+      }
+    }
+    .projects{
+       display: flex;
+       flex-wrap: wrap;
+       .project-box{
+        width: 50%;
+        flex-direction: column;
+        @media (max-width: $mobile-landscape){
+            width: 100%;
+        }
+        .p-wrap{
+          padding: 20px;
+
+          img{
+            width: 100%;
+            position: relative;
+            border-radius: 24px;
+            &.allura{
+              -webkit-box-shadow: 0 28px 32px rgba(54, 21, 246, .3);
+              box-shadow: 0 28px 32px rgba(54, 21, 246, .3);
+              &:hover{
+                -webkit-box-shadow: 0 32px 50px rgba(54, 21, 246, .3);
+                box-shadow: 0 32px 50px rgba(54, 21, 246, .3);
+              }
+            }
+            &.illlus{
+              -webkit-box-shadow: 0 28px 32px rgba(242, 201, 86, .4);
+              box-shadow: 0 28px 32px rgba(242, 201, 86, .3);
+              &:hover{
+                -webkit-box-shadow: 0 32px 50px rgba(242, 201, 86, .4);
+                box-shadow: 0 32px 50px rgba(242, 201, 86, .3);
+              }
+            }
+
+          }
+          h3{
+            margin-top: 32px;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -.2px;
+          }
+          p{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+          }
+          a{
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: 500;
+            color: $blue;
+            &:hover{
+              opacity: .7;
+            }
+          }
+        }
+      }
+    }
+}
 
 .announce-wrapper{
   .an-details{

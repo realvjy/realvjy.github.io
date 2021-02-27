@@ -16,7 +16,7 @@ const WorkList = () => {
       <section className="work story">
         <div className="container">
           <div className="section-info">
-            <h1 className="gradient red">story.</h1>
+            <h1 className="gradient orange">story.</h1>
             <p>I like to think of myself as a design-chef who also happens to love sharing the recipes.</p>
           </div>
           <div className="work-wrap ">

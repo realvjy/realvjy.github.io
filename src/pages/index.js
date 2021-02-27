@@ -1,9 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
+import Featured from "../components/featured"
+import Worked from "../components/worked"
 import Footer from "../components/footer"
 
 class BlogIndex extends React.Component {
@@ -19,7 +23,7 @@ class BlogIndex extends React.Component {
           <div className="container">
             <nav>
               <Link to={`/`} className="brand">
-                <img src="/realvjy.svg" className="logo" alt="realvjy" />
+
               </Link>
               <div className="menu">
                 <ul className="menu-links">
@@ -51,8 +55,11 @@ class BlogIndex extends React.Component {
               </div>
             </nav>
           </div>
+          
         </section>
         <Hero />
+        <Featured />
+        <Worked />
         <Footer />
       </Layout>
     )
