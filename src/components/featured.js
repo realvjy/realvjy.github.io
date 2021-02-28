@@ -15,7 +15,7 @@ const Featured = () => {
             <div className="project-box">
               <div className="p-wrap">
                 <img src="allura.png" className="allura"/>
-                <h3>allura illustraion system</h3>
+                <h3>allura illustration system</h3>
                 <p>A collection inspired by people in everyday situations, from days at the office to walks in the park. Exclusively on blush.</p>
                 <a href="http://blush.ly/allura" target="_blank">explore here ›</a>
               </div>
