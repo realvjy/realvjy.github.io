@@ -23,8 +23,8 @@ const Featured = () => {
             <div className="project-box">
               <div className="p-wrap">
                 <img src="illlustrations.png" className="illlus"/>
-                <h3>illlustraions.co</h3>
-                <p>Open source illustrations kit. More than 100+ illustraions to design awesome landing page, mockup and presentations.</p>
+                <h3>illlustrations.co</h3>
+                <p>Open source illustrations kit. More than 100+ illustrations to design awesome landing page, mockup and presentations.</p>
                 <a href="http://illlustrations.co" target="_blank">explore here ›</a>
               </div>
             </div>
