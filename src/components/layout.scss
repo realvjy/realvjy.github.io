@@ -226,6 +226,10 @@ section{
     background: url("/g-bg.svg") 50% no-repeat;
     background-size: 1100px auto;
     padding-bottom: 120px;
+    @media (max-width: $mobile-landscape){
+        padding-bottom: 50px;
+        background-size: 800px auto;
+    }
     .hero-wrap{
       text-align: center;
       padding: 24px;
@@ -356,8 +360,16 @@ section{
       }
       .menu-social{
         @media (max-width: $mobile-landscape){
-
-           margin-top: 20px;
+          position: fixed;
+          bottom: 0;
+          z-index: 1111;
+          background: #fff;
+          width: 100%;
+          padding: 16px;
+          margin-top: 20px;
+          -webkit-box-shadow: 0 24px 48px rgba(0,0,0,.18);
+          -moz-box-shadow: 0 24px 48px rgba(0,0,0,.18);
+          box-shadow: 0 24px 48px rgba(0,0,0,.18);
         }
         li{
           a{
@@ -365,6 +377,9 @@ section{
             margin-left: 12px;
             padding: 7px;
             opacity: 1;
+            @media (max-width: $mobile-landscape){
+              padding: 12px;
+            }
             img{
               height: 18px;
             }
@@ -544,7 +559,7 @@ section{
       width: 33.33%;
 
       @media (max-width: $mobile-landscape){
-          width: 50%;
+          width: 100%;
       }
       .work-title{
         padding: 24px 18px;
@@ -980,8 +995,10 @@ main{
     align-items: center;
     max-width: 1000px;
     position: relative;
-    margin: 100px auto;
-
+    margin: 50px auto;
+    @media (max-width: $mobile-landscape){
+        margin-top: 24px;
+    }
     h4{
       font-size: 16px;
       text-transform: uppercase;
@@ -991,6 +1008,10 @@ main{
       margin-bottom: 32px;
       text-align: center;
       color: $grey;
+      @media (max-width: $mobile-landscape){
+          font-size: 14px;
+          margin-bottom: 20px;
+      }
     }
     .companies{
       ul{
