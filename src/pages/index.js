@@ -9,6 +9,7 @@ import Hero from "../components/hero"
 import Featured from "../components/featured"
 import Worked from "../components/worked"
 import Footer from "../components/footer"
+import Logo from "../components/logo"
 
 class BlogIndex extends React.Component {
   render() {
@@ -22,9 +23,7 @@ class BlogIndex extends React.Component {
         <section className="header_section">
           <div className="container">
             <nav>
-              <Link to={`/`} className="brand">
-
-              </Link>
+              <Logo/>
               <div className="menu">
                 <ul className="menu-links">
                   <li>
@@ -34,7 +33,7 @@ class BlogIndex extends React.Component {
                     <a href="/work" title="my best work">work.</a>
                   </li>
                   <li>
-                    <a href="/contact" title="my contact">info.</a>
+                    <a href="/about" title="my contact">about.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -52,12 +51,27 @@ class BlogIndex extends React.Component {
                   </li>
 
                 </ul>
+                <ThemeToggler>
+                {({ theme, toggleTheme }) => (
+                  <div className="mode-toggle">
+                  <label>
+                    <input
+                      type="checkbox"
+                      onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                      checked={theme === 'dark'}
+                      id="dmode"
+                    />{' '}
+                  </label>
+                  </div>
+                )}
+                </ThemeToggler>
               </div>
             </nav>
           </div>
-          
+
         </section>
         <Hero />
+
         <Featured />
         <Worked />
         <Footer />

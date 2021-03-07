@@ -1,10 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import StoryList from "../components/story-list"
 import Footer from "../components/footer"
+import Logo from "../components/logo"
+
 
 class Story extends React.Component {
   render() {
@@ -18,9 +21,7 @@ class Story extends React.Component {
         <section className="header_section">
           <div className="container">
             <nav>
-            <Link to={`/`} className="brand">
-
-            </Link>
+            <Logo />
               <div className="menu">
                 <ul className="menu-links">
                   <li className="active">
@@ -30,7 +31,7 @@ class Story extends React.Component {
                     <a href="/work">work.</a>
                   </li>
                   <li>
-                    <a href="/contact">info.</a>
+                    <a href="/about">about.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -48,6 +49,20 @@ class Story extends React.Component {
                   </li>
 
                 </ul>
+                <ThemeToggler>
+                {({ theme, toggleTheme }) => (
+                  <div className="mode-toggle">
+                  <label>
+                    <input
+                      type="checkbox"
+                      onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                      checked={theme === 'dark'}
+                      id="dmode"
+                    />{' '}
+                  </label>
+                  </div>
+                )}
+                </ThemeToggler>
               </div>
             </nav>
           </div>

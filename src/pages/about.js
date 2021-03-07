@@ -1,9 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
+import Logo from "../components/logo"
 
 class Contact extends React.Component {
   render() {
@@ -17,9 +19,7 @@ class Contact extends React.Component {
         <section className="header_section">
           <div className="container">
             <nav>
-            <Link to={`/`} className="brand">
-
-            </Link>
+            <Logo />
               <div className="menu">
                 <ul className="menu-links">
                   <li>
@@ -29,7 +29,7 @@ class Contact extends React.Component {
                     <a href="/work">work.</a>
                   </li>
                   <li className="active">
-                    <a href="/contact">info.</a>
+                    <a href="/about">about.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -47,6 +47,20 @@ class Contact extends React.Component {
                   </li>
 
                 </ul>
+                <ThemeToggler>
+                {({ theme, toggleTheme }) => (
+                  <div className="mode-toggle">
+                  <label>
+                    <input
+                      type="checkbox"
+                      onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                      checked={theme === 'dark'}
+                      id="dmode"
+                    />{' '}
+                  </label>
+                  </div>
+                )}
+                </ThemeToggler>
               </div>
             </nav>
           </div>
@@ -55,7 +69,7 @@ class Contact extends React.Component {
         <section className="work story">
           <div className="container">
             <div className="section-info">
-              <h1 className="gradient pink">contact.</h1>
+              <h1 className="gradient pink">about.</h1>
               <p>It’s not that hard to find my contact just search <a href="https://www.google.com/search?q=realvjy" className="normal-link">realvjy</a>.</p>
             </div>
             <div className="work-wrap ">

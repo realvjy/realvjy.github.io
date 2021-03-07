@@ -40,13 +40,16 @@ $widescreen: 71.25rem; // 1140px
 
 // Dark mode
 body {
-  --bg: white;
+  --bg: #ffffff;
   --textNormal: #222;
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
   --brand: url("/realvjy-white.png") top right / 112px 21px no-repeat;
   background-color: var(--bg);
+  --image-filter: invert(0);
+  --native: #000000;
+  --border-alpha: rgba(0,0,0,0.1);
 }
 
 body.dark {
@@ -58,7 +61,11 @@ body.dark {
   --textLink: yellow;
   --brand: url("/realvjy-black.png") top right / 112px 21px no-repeat;
   --hr: hsla(0, 0%, 100%, 0.2);
+  --image-filter: invert(1);
+  --native: #FFFFFF;
+  --border-alpha: rgba(255,255,255,0.1);
 }
+
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -298,23 +305,62 @@ section{
     }
     .brand{
       padding: 6px 0;
-      height: 21px;
-      width: 112px;
-      background: var(--brand);
-      img{
-        height: 20px;
+      path.col-native {
+        transition: 1s;
+        fill: var(--native);
+      }
+
+      svg {
         -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
         transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
-
+        height: 22px;
+        width: auto;
+        fill: var(--native);
       }
 
-      &:hover{
-        img{
-          opacity: .8;
+
+      svg use {
+         transition: 3s;
+         opacity: 0;
+      }
+      svg:hover use {
+         opacity: 1;
+      }
+
+      svg .native-logo {
+        path{
+          fill: var(--native);
         }
+        &:hover{
+          opacity: 0;
+        }
+      }
+      svg .gradient-logo{
+        -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        opacity: 0;
+        &:hover{
+          opacity: 1;
+        }
+      }
+
+      img{
+        height: 22px;
+        filter: var(--image-filter);
+        -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      }
+      &:hover{
+        opacity: .9;
       }
     }
     .menu{
@@ -324,7 +370,7 @@ section{
       align-items: center;
       @media (max-width: $mobile-landscape){
          justify-content: center;
-         flex-wrap: wrap;
+         flex-wrap: nowrap;
          margin-top: 20px;
       }
       ul{
@@ -363,7 +409,7 @@ section{
           position: fixed;
           bottom: 0;
           z-index: 1111;
-          background: #fff;
+          background: var(--bg);
           width: 100%;
           padding: 16px;
           margin-top: 20px;
@@ -382,6 +428,7 @@ section{
             }
             img{
               height: 18px;
+              filter: var(--image-filter);
             }
             &:hover{
               opacity: .7;
@@ -419,8 +466,8 @@ section{
     font-family: $inter;
     font-weight: 500;
     font-size: 18px;
-    color: $white;
-    background: $black;
+    color: var(--bg);
+    background: var(--native);
     border: 1px solid $black;
     border-radius: 8px;
     &:hover{
@@ -540,8 +587,8 @@ section{
             }
           }
           &:hover{
-            background: $white;
-            border: 1px solid rgba(0,0,0,0.1);
+            background: var(--bg);
+            border: 1px solid var(--border-alpha);
             h1{
               color: $blue;
 
@@ -704,7 +751,7 @@ section{
   }
   .form{
     padding: 48px;
-    border: 1px solid rgba(0,0,0,.2);
+    border: 1px solid var(--border-alpha);
     -webkit-box-shadow: 0 24px 48px rgba(0,0,0,.10);
     -moz-box-shadow: 0 24px 48px rgba(0,0,0,.10);
     box-shadow: 0 24px 48px rgba(0,0,0,.10);
@@ -756,9 +803,9 @@ section{
           border-bottom-right-radius: 12px;
           font-size: 20px;
           width: 100%;
-          background-color: $black;
-          color: white;
-          border: 1px solid $black;
+          background-color: var(--native);
+          color: var(--bg);
+          border: 1px solid var(--native);
           -webkit-appearance: none;
           -moz-appearance: none;
           appearance: none;
@@ -835,11 +882,10 @@ strong{
           @media (max-width: $mobile-landscape){
               width: 24px;
           }
+          filter: var(--image-filter);
         }
         &:hover{
-          img{
-            filter: invert(1);
-          }
+          opacity: .8;
         }
       }
     }
@@ -1031,6 +1077,7 @@ main{
             height: 36px;
             margin-left: 24px;
             margin-right: 24px;
+            filter: var(--image-filter);
             @media (max-width: $mobile-landscape){
                 height: 28px;
             }
@@ -1145,5 +1192,52 @@ main{
   &.ph{
     background: #da552f;
     // background: $black;
+  }
+}
+
+.mode-toggle{
+  margin-left: 24px;
+  input[type=checkbox]{
+    width: 38px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-appearance:none;
+    border-radius: 24px;
+    border: 3px solid rgba(0,0,0,.2);
+    outline: none;
+    position: relative;
+    font-weight: bolder;
+    font-size: 22px;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: $black;
+        background-image: url("/moon.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        left: -5px;
+        top:-5px;
+        transition-duration: .5s;
+    }
+  }
+
+  input:checked[type=checkbox]{
+    background-color: rgba(86, 108, 236, 0.3);
+    border: 3px solid rgba(86, 108, 236, 0.4);
+    &:before{
+        content: '';
+        background-color: $g-blue;
+        -webkit-box-shadow: 0 0 8px rgba(242,177,77,.8);
+        -moz-box-shadow: 0 0 8px rgba(242,177,77,.8);
+        box-shadow: 0 0 8px rgba(242,177,77,.8);
+        left: 12px;
+        transition-duration: .5s;
+        color:#555;
+    }
   }
 }
