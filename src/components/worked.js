@@ -11,14 +11,15 @@ const Worked = () => {
         <section className="worked">
           <div className="container">
           <h4>Crafted for</h4>
-          <div className="companies">
+          <a href="/work" className="companies">
+            <h3 className="gradient pink"> and many more.</h3>
             <ul>
               <li><img src="/zomato.png"/></li>
               <li><img src="/eversend.png"/></li>
               <li><img src="/feedly.png"/></li>
               <li><img src="/learnapp.png"/></li>
             </ul>
-          </div>
+          </a>
           </div>
         </section>
       </>

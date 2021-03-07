@@ -1060,11 +1060,26 @@ main{
       }
     }
     .companies{
+      h3{
+        position: absolute;
+        font-size: 32px;
+        font-weight: 900;
+        z-index: 1;
+        left: 50%;
+        letter-spacing: -.5px;
+        -webkit-transform: translate(-50%,5px) scale(.95);
+        transform: translate(-50%,5px) scale(.95);
+        opacity: 0;
+        -webkit-transition: .7s cubic-bezier(.19,1,.22,1);
+        transition: .7s cubic-bezier(.19,1,.22,1);
+        line-height: 130%;
+      }
       ul{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: row;
+        transition: all .25s cubic-bezier(.02,.01,.47,1);
         @media (max-width: $mobile-landscape){
             flex-direction: column;
         }
@@ -1082,6 +1097,18 @@ main{
                 height: 28px;
             }
           }
+        }
+      }
+      &:hover{
+        h3{
+          opacity: 1;
+          -webkit-transform: translate(-50%,5px) scale(1);
+          transform: translate(-50%,5px) scale(1);
+        }
+        ul{
+          transform: scale(.95);
+          opacity: .5;
+          filter: blur(15px);
         }
       }
     }
