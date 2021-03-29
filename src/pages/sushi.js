@@ -110,7 +110,7 @@ class Sushi extends React.Component {
                   </div>
                   <div className="screen-box">
                     <div className="mock">
-                      <img src="/sushi/sushi-icons.png"/>
+                      <img src="/sushi/sushi-wasabicons.png"/>
                     </div>
                   </div>
                   <div className="screen-box">
