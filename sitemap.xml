@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vijayverma.co/</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/work</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/story/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/sushi</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/work/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/zomato</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/about/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/story</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/sushi/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/contact</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/zomato/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vijayverma.co/uiprint</loc>
-    <lastmod>2020-04-09T14:13:47+00:00</lastmod>
+  <loc>https://vijayverma.co/version/v3/</loc>
+  <lastmod>2020-08-03T15:15:32+00:00</lastmod>
+  <priority>0.80</priority>
+  </url>
+  <url>
+  <loc>https://vijayverma.co/mocups/</loc>
+  <lastmod>2020-11-27T19:39:58+00:00</lastmod>
+  <priority>0.64</priority>
+  </url>
+  <url>
+  <loc>https://vijayverma.co/eversend/</loc>
+  <lastmod>2021-03-07T17:28:37+00:00</lastmod>
+  <priority>0.64</priority>
   </url>
 </urlset>
