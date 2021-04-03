@@ -36,13 +36,13 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
-                <a href="http://bloouikit.com" target="__blank" className="thumb">
+                <a href="https://bloouikit.com?ref=vijayverma.co" target="__blank" className="thumb">
                   <img src="/work/bloo-uikit.png"/>
                   <div className="work-sum">
                     <div className="txt">
                       <h3>bloo wireframe kit</h3>
                       <span>—</span>
-                      <h4>Early Access</h4>
+                      <h4>2021</h4>
                     </div>
                   </div>
                 </a>
@@ -50,7 +50,7 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
-                <a href="https://blush.design/collections/allura" target="__blank" className="thumb">
+                <a href="https://blush.design/collections/allura?ref=vijayverma.co" target="__blank" className="thumb">
                   <img src="/work/allura.png"/>
                   <div className="work-sum">
                     <div className="txt">
@@ -110,7 +110,7 @@ const WorkList = () => {
 
             <div className="work-box">
               <div className="work-title">
-                <a href="https://contrauikit.com" target="__blank" className="thumb">
+                <a href="https://contrauikit.com?ref=vijayverma.co" target="__blank" className="thumb">
                   <img src="/work/contra-kit.png"/>
                   <div className="work-sum">
                     <div className="txt">
