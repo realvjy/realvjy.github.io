@@ -36,6 +36,20 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
+                <a href="/nft" className="thumb">
+                  <img src="/work/nft-art.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>NFT Art</h3>
+                      <span>—</span>
+                      <h4>2021 - Now</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="work-box">
+              <div className="work-title">
                 <a href="https://bloouikit.com?ref=vijayverma.co" target="__blank" className="thumb">
                   <img src="/work/bloo-uikit.png"/>
                   <div className="work-sum">

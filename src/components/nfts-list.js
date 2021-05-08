@@ -17,7 +17,7 @@ const NFTsList = () => {
       <section className="work nfts">
         <div className="container">
           <div className="section-info">
-            <h1 className="gradient nft">nfts.</h1>
+            <h1 className="gradient nft">nft.</h1>
             <p>My digital arts are also available to collect from various nft platforms.</p>
             <div className="platform-list">
               <ul>
