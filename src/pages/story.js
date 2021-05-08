@@ -24,6 +24,9 @@ class Story extends React.Component {
             <Logo />
               <div className="menu">
                 <ul className="menu-links">
+                  <li>
+                    <a href="/nfts" className="gradient nft" title="nft">nfts.</a>
+                  </li>
                   <li className="active">
                     <a href="/story">story.</a>
                   </li>

@@ -23,6 +23,9 @@ class Sushi extends React.Component {
               <div className="menu">
                 <ul className="menu-links">
                   <li>
+                    <a href="/nfts" className="gradient nft" title="nft">nfts.</a>
+                  </li>
+                  <li>
                     <a href="/story">story.</a>
                   </li>
                   <li className="active">

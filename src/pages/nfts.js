@@ -28,6 +28,9 @@ class NFT extends React.Component {
                     <a href="/nfts" className="gradient nft" title="nft">nfts.</a>
                   </li>
                   <li>
+                    <a href="/nfts" className="gradient nft" title="nft">nfts.</a>
+                  </li>
+                  <li>
                     <a href="/story">story.</a>
                   </li>
                   <li>
