@@ -165,6 +165,11 @@ img{
     background-color: $g-green;
     background-image: linear-gradient(90deg, $g-orange 0%, $g-yellow 25%, $g-green 75%, $g-sky 100%);
   }
+  &.nft{
+    background-color: $g-green;
+    background-image: linear-gradient(90deg, $g-blue 0%, $g-pink 50%, $g-orange 100%);
+    font-weight: 800;
+  }
 }
 
 // Basic layout
@@ -395,7 +400,9 @@ section{
           font-size: 20px;
           line-height: normal;
           margin: 0 22px;
-
+          @media (max-width: $mobile-landscape){
+             margin: 0 12px;
+          }
           a{
             line-height: normal;
             &:hover{
@@ -491,7 +498,7 @@ section{
 
 }
 
-.general, .story{
+.general, .story, .nfts{
   margin-bottom: 100px;
 }
 
@@ -983,6 +990,7 @@ main{
                 height: 20px;
                 width: 20px;
                 vertical-align: middle;
+                filter: var(--image-filter);
               }
               &:hover{
                 color: $blue;
@@ -1246,6 +1254,9 @@ main{
 
 .mode-toggle{
   margin-left: 24px;
+  @media (max-width: $mobile-landscape){
+      margin-left: 12px;
+  }
   input[type=checkbox]{
     width: 38px;
     height: 20px;
@@ -1287,6 +1298,125 @@ main{
         left: 12px;
         transition-duration: .5s;
         color:#555;
+    }
+  }
+}
+
+
+.nfts{
+  .platform-list{
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items:  center;
+    margin-top: 16px;
+    ul{
+      display: inline-flex;
+      li{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        a{
+          padding: 16px;
+          vertical-align: middle;
+          opacity: .7;
+          display: flex;
+          flex-direction: row;
+          @media (max-width: $mobile-landscape){
+            flex-direction: column;
+          }
+          img{
+            height: 21px;
+            margin-right: 8px;
+            filter: var(--image-filter);
+          }
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .nft-wrap{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    .nft-box{
+      width: 33.33%;
+
+      @media (max-width: $mobile-landscape){
+          width: 100%;
+      }
+      .nft-title{
+        padding: 24px 18px;
+        .thumb{
+          display: block;
+          position: relative;
+          transition: all .3s var(--emo-in-out)!important;
+          img{
+            width: 100%;
+            border-radius: 24px;
+            -webkit-transition: all ease 0.2s;
+            -moz-transition: all ease 0.2s;
+            -ms-transition: all ease 0.2s;
+            -o-transition: all ease 0.2s;
+            transition: all ease 0.2s;
+            &:hover{
+              filter: brightness(.85);
+              box-shadow: 0 32px 64px rgba(0,0,0,.05);
+            }
+          }
+          .nft-sum{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .txt{
+              padding: 16px 0;
+              transition: all .3s var(--emo-in-out)!important;
+              h5{
+                font-weight: 500;
+                color: var(--textNormal);
+                font-size: 16px;
+                line-height: 130%;
+                opacity: .8;
+                span{
+                  color: rgba(95,95,95, .8);
+                }
+              }
+              h2{
+                font-size: 28px;
+                color: var(--textNormal);
+                font-weight: 800;
+                font-family: $inter;
+                letter-spacing: -1px;
+                line-height: 130%;
+                margin-top: 4px;
+              }
+              h4{
+                font-weight: 500;
+                color: var(--textNormal);
+                font-size: 18px;
+                margin-top: 4px;
+                opacity: .8;
+                span{
+                  font-weight: 700;
+                  opacity: 1!important;
+                }
+              }
+
+            }
+          }
+          &:hover{
+            z-index: 1000;
+            position: relative;
+            background: none;
+
+
+          }
+        }
+      }
     }
   }
 }

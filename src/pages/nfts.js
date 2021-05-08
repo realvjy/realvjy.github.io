@@ -2,16 +2,14 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero"
-import Featured from "../components/featured"
-import Worked from "../components/worked"
+import NFTsList from "../components/nfts-list"
 import Footer from "../components/footer"
 import Logo from "../components/logo"
 
-class BlogIndex extends React.Component {
+
+class NFT extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -19,24 +17,24 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="vijay verma - designer, maker, dreamer" />
+        <SEO title="vijay verma - stories" />
         <section className="header_section">
           <div className="container">
             <nav>
-              <Logo/>
+            <Logo />
               <div className="menu">
                 <ul className="menu-links">
                   <li>
                     <a href="/nfts" className="gradient nft" title="nft">nfts.</a>
                   </li>
                   <li>
-                    <a href="/story" title="my story">story.</a>
+                    <a href="/story">story.</a>
                   </li>
                   <li>
-                    <a href="/work" title="my best work">work.</a>
+                    <a href="/work">work.</a>
                   </li>
                   <li>
-                    <a href="/about" title="my contact">about.</a>
+                    <a href="/about">about.</a>
                   </li>
                 </ul>
                 <ul className="menu-social">
@@ -71,19 +69,15 @@ class BlogIndex extends React.Component {
               </div>
             </nav>
           </div>
-
         </section>
-        <Hero />
-
-        <Featured />
-        <Worked />
+        <NFTsList />
         <Footer />
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default NFT
 
 export const pageQuery = graphql`
   query {
