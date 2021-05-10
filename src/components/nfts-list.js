@@ -31,6 +31,21 @@ const NFTsList = () => {
 
           <div className="nft-wrap">
 
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://foundation.app/realvjy/primitivz-box-000-35730" className="thumb">
+                <img src="/nfts/primitivz_box.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Foundation <span>•</span> Single</h5>
+                    <h2>Primitivz Box #000</h2>
+                    <h4>Reserve price <span>0.25 ETH</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
             <div className="nft-box">
               <div className="nft-title">
                 <a href="https://foundation.app/realvjy/warrior-girl-35426" className="thumb">
@@ -48,7 +63,7 @@ const NFTsList = () => {
 
             <div className="nft-box">
               <div className="nft-title">
-                <a href="https://foundation.app/realvjy/warrior-girl-35426" className="thumb">
+                <a href="https://foundation.app/realvjy/busy-bee-25341" className="thumb">
                   <img src="/nfts/busy-bee.png"/>
                   <div className="nft-sum">
                     <div className="txt">
