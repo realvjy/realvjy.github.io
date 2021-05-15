@@ -17,11 +17,11 @@ const NFTsList = () => {
       <section className="work nfts">
         <div className="container">
           <div className="section-info">
-            <h1 className="gradient nft">nft.</h1>
+            <h1 className="gradient nft">NFTs.</h1>
             <p>My digital arts are also available to collect from various nft platforms.</p>
             <div className="platform-list">
               <ul>
-                <li><a href="https://foundation.com/realvjy" target="__blank"><img src="/foundation.svg"/> foundation</a></li>
+                <li><a href="https://foundation.app/realvjy" target="__blank"><img src="/foundation.svg"/> foundation</a></li>
                 <li><a href="https://rarible.com/realvjy" target="__blank"><img src="/rarible.svg"/> raiable</a></li>
                 <li><a href="https://tryshowtime.com/realvjy" target="__blank"><img src="/showtime.svg"/> tryshowtime</a></li>
               </ul>
@@ -30,6 +30,36 @@ const NFTsList = () => {
 
 
           <div className="nft-wrap">
+
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://rarible.com/realvjy" className="thumb">
+                <img src="/nfts/cutie_002.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Rarible <span>•</span> Single</h5>
+                    <h2>Primitivz #2 "Cutie"</h2>
+                    <h4>Coming Soon</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:561553:0x2d5a7bcd873a5f8a80433a45647cfcf7947779bc?tab=details" className="thumb">
+                <img src="/nfts/robo_1106.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Rarible <span>•</span> 10 Edition</h5>
+                    <h2>Primitivz #1 "Robo"</h2>
+                    <h4>On Auction</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
 
           <div className="nft-box">
             <div className="nft-title">

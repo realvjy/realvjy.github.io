@@ -40,7 +40,7 @@ const WorkList = () => {
                   <img src="/work/nft-art.png"/>
                   <div className="work-sum">
                     <div className="txt">
-                      <h3>NFT Art</h3>
+                      <h3>NFT Arts</h3>
                       <span>—</span>
                       <h4>2021 - Now</h4>
                     </div>
