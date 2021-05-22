@@ -29,6 +29,13 @@ const Featured = () => {
                 <a href="http://illlustrations.co/?ref=vijayverma.co" target="_blank">explore here ›</a>
               </div>
             </div>
+
+            <div className="promotion">
+              <a href="https://rarible.com/realvjy">
+                <img src="nft-illlustrations.jpg" className="web-promo"/>
+                <img src="nft-illlustrations-mobile.jpg" className="mobile-promo"/>
+              </a>
+            </div>
           </div>
           </div>
         </section>
