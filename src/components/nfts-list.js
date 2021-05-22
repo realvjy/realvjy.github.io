@@ -33,13 +33,28 @@ const NFTsList = () => {
 
           <div className="nft-box">
             <div className="nft-title">
-              <a href="https://rarible.com/realvjy" className="thumb">
+              <a href="https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:1017824:0x2d5a7bcd873a5f8a80433a45647cfcf7947779bc?tab=bids" className="thumb">
+                <img src="/nfts/skully_003.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Rarible <span>•</span> Single</h5>
+                    <h2>Primitivz #3 "Skully"</h2>
+                    <h4>On Auction <span>0.1 ETH</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:996625:0x90fa47e64c359e2476f548a95ba1d9d7956185e2?tab=details" className="thumb">
                 <img src="/nfts/cutie_002.png"/>
                 <div className="nft-sum">
                   <div className="txt">
                     <h5>Rarible <span>•</span> Single</h5>
                     <h2>Primitivz #2 "Cutie"</h2>
-                    <h4>Coming Soon</h4>
+                    <h4>Sold <span>0.1 ETH</span></h4>
                   </div>
                 </div>
               </a>
@@ -54,7 +69,7 @@ const NFTsList = () => {
                   <div className="txt">
                     <h5>Rarible <span>•</span> 10 Edition</h5>
                     <h2>Primitivz #1 "Robo"</h2>
-                    <h4>On Auction</h4>
+                    <h4>On Sale <span>0.02 ETH</span></h4>
                   </div>
                 </div>
               </a>
