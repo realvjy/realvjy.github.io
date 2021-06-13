@@ -36,6 +36,20 @@ const WorkList = () => {
             </div>
             <div className="work-box">
               <div className="work-title">
+                <a href="http://3dicons.co?ref=vijayverma.co" target="__blank" className="thumb">
+                  <img src="/work/3dicons.png"/>
+                  <div className="work-sum">
+                    <div className="txt">
+                      <h3>3dicons</h3>
+                      <span>—</span>
+                      <h4>2021</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="work-box">
+              <div className="work-title">
                 <a href="/nft" className="thumb">
                   <img src="/work/nft-art.png"/>
                   <div className="work-sum">
