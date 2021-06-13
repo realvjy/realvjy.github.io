@@ -77,7 +77,7 @@ class Contact extends React.Component {
             </div>
             <div className="work-wrap ">
               <div className="contact-box">
-                <img src="/cover.png" alt="vijay verma desk" className="cover-img"/>
+                <img src="/workspace.jpg" alt="vijay verma desk" className="cover-img"/>
 
 
                 <div className="perm-box">
