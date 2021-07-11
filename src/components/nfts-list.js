@@ -33,6 +33,51 @@ const NFTsList = () => {
 
           <div className="nft-box">
             <div className="nft-title">
+              <a href="https://foundation.app/@realvjy/design-potion-56042" className="thumb">
+                <img src="/nfts/design-potion.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Foundation <span>•</span> Single</h5>
+                    <h2>Design Potion</h2>
+                    <h4>Sold <span>0.33 ETH</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:602598?tab=owners" className="thumb">
+                <img src="/nfts/rainbow.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Rarible <span>•</span> Single</h5>
+                    <h2>Primitivz #5 "Rainbow"</h2>
+                    <h4>On Auction <span>0.11 ETH</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:1037516?tab=bids" className="thumb">
+                <img src="/nfts/sporty.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>Rarible <span>•</span> Single</h5>
+                    <h2>Primitivz #4 "sporty"</h2>
+                    <h4>On Auction <span>0.11 ETH</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="nft-box">
+            <div className="nft-title">
               <a href="https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:1017824:0x2d5a7bcd873a5f8a80433a45647cfcf7947779bc?tab=bids" className="thumb">
                 <img src="/nfts/skully_003.png"/>
                 <div className="nft-sum">
