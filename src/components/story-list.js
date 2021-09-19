@@ -23,6 +23,18 @@ const WorkList = () => {
 
             <div className="story-box">
               <div className="story-title">
+                <a href="https://medium.com/zomato-technology/making-design-collaboration-seamless-with-sushi-2003dabb8e6" className="article">
+                  <h1>Making Design Collaboration Seamless With Sushi</h1>
+                  <p>How Zomato’s Sushi design system ensures easy collaboration between designers, product managers and engineers.</p>
+                  <div className="meta">
+                    <h4>Sep 14, 2021</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="story-box">
+              <div className="story-title">
                 <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" className="article">
                   <h1>Zomato’s new Sushi Design System</h1>
                   <p>All new Zomato design system to create a smooth and amazing experience for our users.</p>
