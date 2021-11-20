@@ -23,6 +23,7 @@ const NFTsList = () => {
               <ul>
                 <li><a href="https://foundation.app/realvjy" target="__blank"><img src="/foundation.svg"/> foundation</a></li>
                 <li><a href="https://rarible.com/realvjy" target="__blank"><img src="/rarible.svg"/> raiable</a></li>
+                <li><a href="https://opensea.io/accounts/realvjy" target="__blank"><img src="/opensea.svg"/> opensea</a></li>
                 <li><a href="https://tryshowtime.com/realvjy" target="__blank"><img src="/showtime.svg"/> tryshowtime</a></li>
               </ul>
             </div>
@@ -30,6 +31,20 @@ const NFTsList = () => {
 
 
           <div className="nft-wrap">
+          <div className="nft-box">
+            <div className="nft-title">
+              <a href="https://twitter.com/magikpotions" className="thumb">
+                <img src="/nfts/magikpotions-banner.png"/>
+                <div className="nft-sum">
+                  <div className="txt">
+                    <h5>1117 Editons</h5>
+                    <h2>Magik Potions</h2>
+                    <h4>TBA</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
 
           <div className="nft-box">
             <div className="nft-title">
