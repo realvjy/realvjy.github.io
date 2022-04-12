@@ -22,7 +22,7 @@ const NFTsList = () => {
             <div className="platform-list">
               <ul>
                 <li><a href="https://foundation.app/realvjy" target="__blank"><img src="/foundation.svg"/> foundation</a></li>
-                <li><a href="https://rarible.com/realvjy" target="__blank"><img src="/rarible.svg"/> raiable</a></li>
+                <li><a href="https://rarible.com/realvjy" target="__blank"><img src="/rarible.svg"/> rariable</a></li>
                 <li><a href="https://opensea.io/accounts/realvjy" target="__blank"><img src="/opensea.svg"/> opensea</a></li>
                 <li><a href="https://tryshowtime.com/realvjy" target="__blank"><img src="/showtime.svg"/> tryshowtime</a></li>
               </ul>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `vijay verma - designer, maker, dreamer`,
     author: `vijay verma`,
-    description: `A design chef leading and building inclusive design at zomato. Maker of Sushi Design System, illlustrations, uiprint, designletter....`,
+    description: `A Design Wizard | Creating NFT arts | Making opensource design resources 2D/3D | Voyaging in the Metaverse | Sushi Design System, designletter, 3dicons...`,
     siteUrl: `https://vijayverma.co`,
     social: {
       twitter: `realvjy`,
