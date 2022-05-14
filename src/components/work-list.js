@@ -28,7 +28,7 @@ const WorkList = () => {
                     <div className="txt">
                       <h3>zomato</h3>
                       <span>—</span>
-                      <h4>2018-Now</h4>
+                      <h4>2018-2022</h4>
                     </div>
                   </div>
                 </a>

@@ -73,12 +73,13 @@ class Zomato extends React.Component {
           <div className="container">
             <div className="section-info">
               <h1>zomato</h1>
-              <p>2018-now</p>
+              <p>2018-2022</p>
             </div>
             <div className="general-wrap ">
               <div className="text-box">
                 <div className="text">
                   <p>After 3 years of working as a freelance, I decided to join the design team at zomato in mid-2018. My core responsibility here is to improve the overall user experience of Zomato products across all platforms (iOS, Android Phone, web) and maintain the consistency of design across the brand. My big achievement at Zomato culminated with the launch of the new design system we called <a href="/sushi">Sushi Design System</a>.</p>
+                  <p> The 4 years I spent here have allowed me to create a lot of products and features. Then I decided it was time to move on.</p>
                   <h3>Live Consumer Products</h3>
                   <ul>
                     <li><a href="https://bnc.lt/download-zomato-ios" target="__blank"><img src="/ios.svg"/> iOS app</a></li>
@@ -90,13 +91,9 @@ class Zomato extends React.Component {
 
               <div className="screen-wrap">
                 <div className="caption-text">
-                  <h4>Screens - v15 app (2020)</h4>
+                  <h4>v15, v16 (2020,21)</h4>
                 </div>
-                <div className="screens">
-                  <div className="screen-full">
-                    <img src="/zomato/v15-soon.png" />
-                  </div>
-                </div>
+                
               </div>
 
               <div className="screen-wrap">

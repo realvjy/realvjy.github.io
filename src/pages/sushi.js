@@ -79,8 +79,11 @@ class Sushi extends React.Component {
               <div className="text-box">
                 <div className="text">
                   <p>Sushi is zomato’s very own design system, which helps build robust user interfaces following a clean and simple design language.</p>
-                  <h3>Read here : <a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" target="_blank" className="blue-link">zomato’s new Sushi Design System</a></h3>
+                  <h3>Blog</h3>
+                  <h3><a href="https://medium.com/zomato-technology/zomatos-new-sushi-design-system-d7f4f98664c5" target="_blank" className="blue-link">zomato’s new Sushi Design System</a></h3>
+                  <h3><a href="https://medium.com/zomato-technology/making-design-collaboration-seamless-with-sushi-2003dabb8e6" target="_blank" className="blue-link">Making Design Collaboration Seamless With Sushi</a></h3>
                 </div>
+
               </div>
 
               <div className="screen-wrap">
