@@ -20,6 +20,17 @@ const WorkList = () => {
             <p>I like to think of myself as a design-chef who also happens to love sharing the recipes.</p>
           </div>
           <div className="work-wrap ">
+            <div className="story-box">
+              <div className="story-title">
+                <a href="https://www.smashingmagazine.com/2022/05/3dicons-open-source-library-case-study-download/?ref=vijayverma.co" className="article">
+                  <h1>Open-Source 3dicons Library: Case Study And Free Downloads</h1>
+                  <p>In this article, Vijay describes his learning experiences during the design stages of creating his 3dicons image library.., </p>
+                  <div className="meta">
+                    <h4>May 27, 2022</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
 
             <div className="story-box">
               <div className="story-title">
