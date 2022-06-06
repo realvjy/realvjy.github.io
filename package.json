@@ -1,11 +1,11 @@
 {
   "name": "vijayverma",
   "private": true,
-  "description": "Design chef at zomato. I’m leading design and building inclusive design language system at Zomato. Maker of illlustrations, uiprint, uihues and more",
+  "description": "Design Wizard. I’m leading design and building inclusive design language system at Zomato. Maker of illlustrations, uiprint, uihues and more",
   "version": "4.0.0",
   "author": "vijay verma <hello@vijayverma.co>",
   "bugs": {
-    "url": "https://github.com/realvjy/illlustrations/issues"
+    "url": "https://github.com/realvjy/"
   },
   "dependencies": {
     "gatsby": "^2.20.18",
