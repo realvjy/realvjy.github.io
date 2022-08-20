@@ -17,11 +17,11 @@ class NFT extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="vijay verma - stories" />
+        <SEO title="vijay verma - nfts" />
         <section className="header_section">
           <div className="container">
             <nav>
-            <Logo />
+              <Logo />
               <div className="menu">
                 <ul className="menu-links">
                   <li>
@@ -39,32 +39,32 @@ class NFT extends React.Component {
                 </ul>
                 <ul className="menu-social">
                   <li>
-                    <a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a>
+                    <a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg" /></a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
+                    <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg" /></a>
                   </li>
                   <li>
-                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg"/></a>
+                    <a href="https://figma.com/@realvjy" target="__blank"><img src="/figma.svg" /></a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
+                    <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg" /></a>
                   </li>
 
                 </ul>
                 <ThemeToggler>
-                {({ theme, toggleTheme }) => (
-                  <div className="mode-toggle">
-                  <label>
-                    <input
-                      type="checkbox"
-                      onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                      checked={theme === 'dark'}
-                      id="dmode"
-                    />{' '}
-                  </label>
-                  </div>
-                )}
+                  {({ theme, toggleTheme }) => (
+                    <div className="mode-toggle">
+                      <label>
+                        <input
+                          type="checkbox"
+                          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                          checked={theme === 'dark'}
+                          id="dmode"
+                        />{' '}
+                      </label>
+                    </div>
+                  )}
                 </ThemeToggler>
               </div>
             </nav>
