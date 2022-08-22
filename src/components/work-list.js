@@ -21,6 +21,20 @@ const WorkList = () => {
         <div className="work-wrap">
           <div className="work-box">
             <div className="work-title">
+              <a href="http://twitter.com/lilfrenzgroup" target="__blank" className="thumb">
+                <img src="/work/lfg.png" />
+                <div className="work-sum">
+                  <div className="txt">
+                    <h3>Lil Frenz Group</h3>
+                    <span>—</span>
+                    <h4>Soon</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="work-box">
+            <div className="work-title">
               <a href="http://3dicons.co?ref=vijayverma.co" target="__blank" className="thumb">
                 <img src="/work/3dicons.png" />
                 <div className="work-sum">
