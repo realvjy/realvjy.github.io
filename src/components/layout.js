@@ -8,8 +8,11 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let announce = (
       <>
-      <div className="announce-wrapper designletter">
-      </div>
+        <div className="announce-wrapper release">
+          <div className="container">
+            <h2>Released latest version at <a href="https://vjy.me">vjy.me</a></h2>
+          </div>
+        </div>
       </>
     )
     return (

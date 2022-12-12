@@ -1256,6 +1256,40 @@ main{
       }
     }
   }
+  &.release{
+    background-color: $g-pink;
+    background-image: linear-gradient(90deg, $g-blue 0%, $g-pink 25%, $g-orange 75%, $g-yellow 100%);
+    color: $white;
+    padding: 16px;
+    text-align: center;
+    h2{
+      color: $white;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -1px;
+      @media (max-width: $mobile-landscape){
+        font-size: 20px;
+      }
+    }
+    img{
+      height: 22px!important;
+      vertical-align: middle;
+    }
+    a{
+      color: $white;
+      font-weight: 500;
+      text-decoration: underline;
+      &:hover{
+        background: none;
+      }
+    }
+    span{
+      color: $white;
+      @media (max-width: $mobile-landscape){
+          display: none;
+      }
+    }
+  }
   &.ph{
     background: #da552f;
     // background: $black;
