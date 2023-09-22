@@ -14,11 +14,11 @@ const Featured = () => {
           <div className="projects">
             <div className="project-box">
               <div className="p-wrap">
-                <a href="https://twitter.com/lilfrenzgroup"><img src="/lfg-front.png" className="tdicons" /></a>
+                <a href="https://handkit.design"><img src="/ghost-hand-kit.png" className="tdicons" /></a>
                 <span className="new-tag">SOON</span>
-                <h3>Lil Frenz Group</h3>
-                <p>A dynamic NFT collection. Lil Frenz started with this idea; Instead of generating random characters, we want to provide our users the ability to customize their PFP like games. </p>
-                <a href="https://twitter.com/lilfrenzgroup" target="_blank">Follow the process here ›</a>
+                <h3>Ghost Hand Kit</h3>
+                <p>A collection of digital hand gestures to elevate your AR/VR designs and mockups with stunning hand gestures! These can also be used for social media, presentations, and video content, in addition to XR.</p>
+                <a href="https://twitter.com/realvjy/status/1623284022590992385" target="_blank">Check demo and Signup ›</a>
               </div>
             </div>
 
@@ -32,12 +32,7 @@ const Featured = () => {
             </div>
 
 
-            <div className="promotion">
-              <a href="https://rarible.com/realvjy">
-                <img src="nft-illlustrations.jpg" className="web-promo" />
-                <img src="nft-illlustrations-mobile.jpg" className="mobile-promo" />
-              </a>
-            </div>
+
           </div>
         </div>
       </section>

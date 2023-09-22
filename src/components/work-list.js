@@ -21,7 +21,7 @@ const WorkList = () => {
         <div className="work-wrap">
           <div className="work-box">
             <div className="work-title">
-              <a href="http://twitter.com/lilfrenzgroup" target="__blank" className="thumb">
+              <a href="https://twitter.com/lilfrenzgroup" target="__blank" className="thumb">
                 <img src="/work/lfg.png" />
                 <div className="work-sum">
                   <div className="txt">
@@ -35,7 +35,21 @@ const WorkList = () => {
           </div>
           <div className="work-box">
             <div className="work-title">
-              <a href="http://3dicons.co?ref=vijayverma.co" target="__blank" className="thumb">
+              <a href="https://handkit.design?ref=vijayverma.co" target="__blank" className="thumb">
+                <img src="/work/ghost-hand.png" />
+                <div className="work-sum">
+                  <div className="txt">
+                    <h3>Ghost Hand Kit</h3>
+                    <span>—</span>
+                    <h4>2023</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="work-box">
+            <div className="work-title">
+              <a href="https://3dicons.co?ref=vijayverma.co" target="__blank" className="thumb">
                 <img src="/work/3dicons.png" />
                 <div className="work-sum">
                   <div className="txt">
