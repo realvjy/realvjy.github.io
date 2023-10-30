@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `vijay verma - designer, maker, dreamer`,
     author: `vijay verma`,
-    description: `A Design Wizard | Creating NFT arts | Making opensource design resources 2D/3D | Voyaging in the Metaverse | Sushi Design System, designletter, 3dicons...`,
+    description: `A Wizard ✦ Love design and Code ✦ maker of 3dicons, coolshapes, Sushi Design System, illlustration, uikits, noisy gradients, xrui.design, handkit,  +6 more ✦ making things at Overlayz studio ✦ illustration, 3D, XR ✦ now building games`,
     siteUrl: `https://vijayverma.co`,
     social: {
       twitter: `realvjy`,
@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-      	endpoint: `https://designletter.us10.list-manage.com/subscribe/post?u=ac670d4650872310b44fc59b4&amp;id=2728fe6fff`,
+        endpoint: `https://designletter.us10.list-manage.com/subscribe/post?u=ac670d4650872310b44fc59b4&amp;id=2728fe6fff`,
       },
     },
     `gatsby-plugin-offline`,
